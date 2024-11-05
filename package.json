@@ -7,6 +7,8 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
+    "android-staging": "react-native run-android --mode=releasestaging",
+    "android-production": "react-native run-android --mode=release",
     "test": "jest"
   },
   "dependencies": {
