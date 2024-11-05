@@ -1,4 +1,4 @@
-package com.workpay
+package com.workpay.workpay
 import expo.modules.ReactActivityDelegateWrapper
 
 import com.facebook.react.ReactActivity
