@@ -1,0 +1,179 @@
+{
+  "project_info": {
+    "project_number": "857686266532",
+    "firebase_url": "https://workpay-africawp.firebaseio.com",
+    "project_id": "workpay-africawp",
+    "storage_bucket": "workpay-africawp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857686266532:android:4bb6624dfddf9053498c31",
+        "android_client_info": {
+          "package_name": "com.workpay.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857686266532-5gim28vn6krtjrjvb93bnf13jq0lbedk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoYleqaxVMFSkYszF-J_AiATAwxhh0-ms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857686266532-5gim28vn6krtjrjvb93bnf13jq0lbedk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "857686266532-i6aebpjt514gmt5t9ef0nrh2g8kq8g1f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.ke.workpay"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857686266532:android:47b8754f44713b5e498c31",
+        "android_client_info": {
+          "package_name": "com.workpay.workpay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857686266532-qt3cvedo8k65gvtionsvft3a6j7vtfmb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.workpay.workpay",
+            "certificate_hash": "42eb6337ef540a975574f909bdbcb5f3d1194ec5"
+          }
+        },
+        {
+          "client_id": "857686266532-5gim28vn6krtjrjvb93bnf13jq0lbedk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoYleqaxVMFSkYszF-J_AiATAwxhh0-ms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857686266532-5gim28vn6krtjrjvb93bnf13jq0lbedk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "857686266532-i6aebpjt514gmt5t9ef0nrh2g8kq8g1f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.ke.workpay"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857686266532:android:07eb7eab4727fe21498c31",
+        "android_client_info": {
+          "package_name": "com.workpay.workpay.qa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857686266532-gsi0cl8bln7knvdbnpvdr5qp466l6hhb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.workpay.workpay.qa",
+            "certificate_hash": "42eb6337ef540a975574f909bdbcb5f3d1194ec5"
+          }
+        },
+        {
+          "client_id": "857686266532-5gim28vn6krtjrjvb93bnf13jq0lbedk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoYleqaxVMFSkYszF-J_AiATAwxhh0-ms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857686266532-5gim28vn6krtjrjvb93bnf13jq0lbedk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "857686266532-i6aebpjt514gmt5t9ef0nrh2g8kq8g1f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.ke.workpay"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857686266532:android:c1712f2f8ea78e70498c31",
+        "android_client_info": {
+          "package_name": "com.workpay.workpay.staging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857686266532-mef1rbamhf5m73nu8dotfh39kqoo4647.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.workpay.workpay.staging",
+            "certificate_hash": "42eb6337ef540a975574f909bdbcb5f3d1194ec5"
+          }
+        },
+        {
+          "client_id": "857686266532-5gim28vn6krtjrjvb93bnf13jq0lbedk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoYleqaxVMFSkYszF-J_AiATAwxhh0-ms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857686266532-5gim28vn6krtjrjvb93bnf13jq0lbedk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "857686266532-i6aebpjt514gmt5t9ef0nrh2g8kq8g1f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.ke.workpay"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

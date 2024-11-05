@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Workpay</string>
+    <string moduleConfig="true" name="CodePushPublicKey">-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvEwG5NmB0+XtHMsd5UwU
+AiC+Eut8WStksES4L9pBX/emDWAPS67jtYRsQvMOSRuG/4k3HhdYe7T/9Rjs+//y
+dVFFtXTkqSaHZO4KmAC3GLg8V0GI4LzxdoqCRedEOTiWQ/OoJNueY/njlBT6QmYi
+3NxiBU2bKJfSjRnOirz6DxeKMTLMIyEn/BKYrOkf9LEPy7fDFYYMF0L7Ucf3ktQp
+GZ6L+hcWxPPjBGVxR56FzEXxT/7NGub5m1iQbaxTt3Av8bgSigFSbxcUgtF/sWfx
+0V0TWVQQJUiV0EAql9r6HGJdvAPTfOMk4JWbkr5+g5ZbB5T0aAIMPyeeFe3gVtI/
+EQIDAQAB
+-----END PUBLIC KEY-----</string>
+<string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">DO_NOT_ASK_JAVASCRIPT</string>
+<string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
 </resources>
