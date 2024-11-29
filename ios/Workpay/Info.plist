@@ -24,16 +24,21 @@
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>NSContactsUsageDescription</key>
-	<string>We need access to your contacts to enhance app form features.</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
-	  <!-- Do not change NSAllowsArbitraryLoads to true, or you will risk app rejection! -->
 		<key>NSAllowsArbitraryLoads</key>
 		<false/>
 		<key>NSAllowsLocalNetworking</key>
 		<true/>
 	</dict>
+	<key>NSContactsUsageDescription</key>
+	<string>We need access to your contacts to enhance app form features.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Enroll your fingerprint to enhance the security of your data you access using the app.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>We need access to your location to enable clock in/out.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We need access to your location to enable clock in/out.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>We need access to your location to enable clock in/out.</string>
 	<key>UILaunchStoryboardName</key>
@@ -50,11 +55,5 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-	<key>NSFaceIDUsageDescription</key>
-	<string>Enroll your fingerprint to enhance the security of your data you access using the app.</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>We need access to your location to enable clock in/out.</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>We need access to your location to enable clock in/out.</string>
 </dict>
 </plist>
