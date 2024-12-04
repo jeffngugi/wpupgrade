@@ -3434,6 +3434,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-native-firebase/analytics@npm:^21.6.1":
+  version: 21.6.1
+  resolution: "@react-native-firebase/analytics@npm:21.6.1"
+  dependencies:
+    superstruct: ^2.0.2
+  peerDependencies:
+    "@react-native-firebase/app": 21.6.1
+  checksum: e7fce1d80720e47e3ab418f43f1dd1c5b9cf0e58aa62e2e34a2960713f678b101c0ed0acb9fb155a3d2ca503a71d0863b0791914129ecd2ed0839a77bf8a9717
+  languageName: node
+  linkType: hard
+
 "@react-native-firebase/app@npm:^21.6.1":
   version: 21.6.1
   resolution: "@react-native-firebase/app@npm:21.6.1"
@@ -3447,6 +3458,29 @@ __metadata:
     expo:
       optional: true
   checksum: c828043db6b8dd80dafcc79157381ce7a6cba447ba2a662dc58ac3fa53d919ecd5e2df84904be481487350bccbab21a802fb75acdf7ac216f886f1d7ff72cb7b
+  languageName: node
+  linkType: hard
+
+"@react-native-firebase/in-app-messaging@npm:^21.6.1":
+  version: 21.6.1
+  resolution: "@react-native-firebase/in-app-messaging@npm:21.6.1"
+  peerDependencies:
+    "@react-native-firebase/analytics": 21.6.1
+    "@react-native-firebase/app": 21.6.1
+  checksum: e086fb9319ab79c8300a2a3461c5af2db7e881f49a71790feb0a16d1a77420a5dc43f29ed74078e56b040c1058782b80b927511736190bd52e25f3d4513fdc90
+  languageName: node
+  linkType: hard
+
+"@react-native-firebase/messaging@npm:^21.6.1":
+  version: 21.6.1
+  resolution: "@react-native-firebase/messaging@npm:21.6.1"
+  peerDependencies:
+    "@react-native-firebase/app": 21.6.1
+    expo: ">=47.0.0"
+  peerDependenciesMeta:
+    expo:
+      optional: true
+  checksum: a187acb8573807790eef9ae47281a5c241b7234075d14030969f62923fd536dacc43c194cd05d9e6fb2b09400f8fc86f50baf8bdfc6cae5da60322f0ce4a2f2a
   languageName: node
   linkType: hard
 
@@ -4318,7 +4352,10 @@ __metadata:
     "@babel/core": ^7.20.0
     "@babel/preset-env": ^7.20.0
     "@babel/runtime": ^7.20.0
+    "@react-native-firebase/analytics": ^21.6.1
     "@react-native-firebase/app": ^21.6.1
+    "@react-native-firebase/in-app-messaging": ^21.6.1
+    "@react-native-firebase/messaging": ^21.6.1
     "@react-native/babel-preset": 0.74.88
     "@react-native/eslint-config": 0.74.88
     "@react-native/metro-config": 0.74.88
@@ -11863,6 +11900,13 @@ __metadata:
   version: 9.2.1
   resolution: "sudo-prompt@npm:9.2.1"
   checksum: 50a29eec2f264f2b78d891452a64112d839a30bffbff4ec065dba4af691a35b23cdb8f9107d413e25c1a9f1925644a19994c00602495cab033d53f585fdfd665
+  languageName: node
+  linkType: hard
+
+"superstruct@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "superstruct@npm:2.0.2"
+  checksum: a5f75b72cb8b14b86f4f7f750dae8c5ab0e4e1d92414b55e7625bae07bbcafad81c92486e7e32ccacd6ae1f553caff2b92a50ff42ad5093fd35b9cb7f4e5ec86
   languageName: node
   linkType: hard
 

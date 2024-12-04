@@ -57,27 +57,129 @@ PODS:
     - "sqlite3/fts (~> 3.45.3+1)"
     - "sqlite3/fts5 (~> 3.45.3+1)"
   - FBLazyVector (0.74.6)
+  - Firebase/Analytics (11.5.0):
+    - Firebase/Core
+  - Firebase/Core (11.5.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (~> 11.5.0)
   - Firebase/CoreOnly (11.5.0):
     - FirebaseCore (= 11.5.0)
+  - Firebase/InAppMessaging (11.5.0):
+    - Firebase/CoreOnly
+    - FirebaseInAppMessaging (~> 11.5.0-beta)
+  - Firebase/Messaging (11.5.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 11.5.0)
+  - FirebaseABTesting (11.5.0):
+    - FirebaseCore (= 11.5)
+  - FirebaseAnalytics (11.5.0):
+    - FirebaseAnalytics/AdIdSupport (= 11.5.0)
+    - FirebaseCore (= 11.5)
+    - FirebaseInstallations (~> 11.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 8.0)
+    - GoogleUtilities/MethodSwizzler (~> 8.0)
+    - GoogleUtilities/Network (~> 8.0)
+    - "GoogleUtilities/NSData+zlib (~> 8.0)"
+    - nanopb (~> 3.30910.0)
+  - FirebaseAnalytics/AdIdSupport (11.5.0):
+    - FirebaseCore (= 11.5)
+    - FirebaseInstallations (~> 11.0)
+    - GoogleAppMeasurement (= 11.5.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 8.0)
+    - GoogleUtilities/MethodSwizzler (~> 8.0)
+    - GoogleUtilities/Network (~> 8.0)
+    - "GoogleUtilities/NSData+zlib (~> 8.0)"
+    - nanopb (~> 3.30910.0)
   - FirebaseCore (11.5.0):
     - FirebaseCoreInternal (= 11.5)
     - GoogleUtilities/Environment (~> 8.0)
     - GoogleUtilities/Logger (~> 8.0)
+  - FirebaseCoreExtension (11.5.0):
+    - FirebaseCore (= 11.5)
   - FirebaseCoreInternal (11.5.0):
     - "GoogleUtilities/NSData+zlib (~> 8.0)"
+  - FirebaseInAppMessaging (11.5.0-beta):
+    - FirebaseABTesting (~> 11.0)
+    - FirebaseCore (= 11.5)
+    - FirebaseInstallations (~> 11.0)
+    - GoogleUtilities/Environment (~> 8.0)
+    - GoogleUtilities/UserDefaults (~> 8.0)
+    - nanopb (~> 3.30910.0)
+  - FirebaseInstallations (11.5.0):
+    - FirebaseCore (= 11.5)
+    - GoogleUtilities/Environment (~> 8.0)
+    - GoogleUtilities/UserDefaults (~> 8.0)
+    - PromisesObjC (~> 2.4)
+  - FirebaseMessaging (11.5.0):
+    - FirebaseCore (= 11.5)
+    - FirebaseInstallations (~> 11.0)
+    - GoogleDataTransport (~> 10.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 8.0)
+    - GoogleUtilities/Environment (~> 8.0)
+    - GoogleUtilities/Reachability (~> 8.0)
+    - GoogleUtilities/UserDefaults (~> 8.0)
+    - nanopb (~> 3.30910.0)
   - fmt (9.1.0)
   - glog (0.3.5)
+  - GoogleAppMeasurement (11.5.0):
+    - GoogleAppMeasurement/AdIdSupport (= 11.5.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 8.0)
+    - GoogleUtilities/MethodSwizzler (~> 8.0)
+    - GoogleUtilities/Network (~> 8.0)
+    - "GoogleUtilities/NSData+zlib (~> 8.0)"
+    - nanopb (~> 3.30910.0)
+  - GoogleAppMeasurement/AdIdSupport (11.5.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 11.5.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 8.0)
+    - GoogleUtilities/MethodSwizzler (~> 8.0)
+    - GoogleUtilities/Network (~> 8.0)
+    - "GoogleUtilities/NSData+zlib (~> 8.0)"
+    - nanopb (~> 3.30910.0)
+  - GoogleAppMeasurement/WithoutAdIdSupport (11.5.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 8.0)
+    - GoogleUtilities/MethodSwizzler (~> 8.0)
+    - GoogleUtilities/Network (~> 8.0)
+    - "GoogleUtilities/NSData+zlib (~> 8.0)"
+    - nanopb (~> 3.30910.0)
+  - GoogleDataTransport (10.1.0):
+    - nanopb (~> 3.30910.0)
+    - PromisesObjC (~> 2.4)
+  - GoogleUtilities/AppDelegateSwizzler (8.0.2):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+    - GoogleUtilities/Privacy
   - GoogleUtilities/Environment (8.0.2):
     - GoogleUtilities/Privacy
   - GoogleUtilities/Logger (8.0.2):
     - GoogleUtilities/Environment
     - GoogleUtilities/Privacy
+  - GoogleUtilities/MethodSwizzler (8.0.2):
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Network (8.0.2):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Privacy
+    - GoogleUtilities/Reachability
   - "GoogleUtilities/NSData+zlib (8.0.2)":
     - GoogleUtilities/Privacy
   - GoogleUtilities/Privacy (8.0.2)
+  - GoogleUtilities/Reachability (8.0.2):
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/UserDefaults (8.0.2):
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Privacy
   - hermes-engine (0.74.6):
     - hermes-engine/Pre-built (= 0.74.6)
   - hermes-engine/Pre-built (0.74.6)
+  - nanopb (3.30910.0):
+    - nanopb/decode (= 3.30910.0)
+    - nanopb/encode (= 3.30910.0)
+  - nanopb/decode (3.30910.0)
+  - nanopb/encode (3.30910.0)
+  - PromisesObjC (2.4.0)
   - RCT-Folly (2024.01.01.00):
     - boost
     - DoubleConversion
@@ -1239,9 +1341,22 @@ PODS:
     - React-logger (= 0.74.6)
     - React-perflogger (= 0.74.6)
     - React-utils (= 0.74.6)
+  - RNFBAnalytics (21.6.1):
+    - Firebase/Analytics (= 11.5.0)
+    - React-Core
+    - RNFBApp
   - RNFBApp (21.6.1):
     - Firebase/CoreOnly (= 11.5.0)
     - React-Core
+  - RNFBInAppMessaging (21.6.1):
+    - Firebase/InAppMessaging (= 11.5.0)
+    - React-Core
+    - RNFBApp
+  - RNFBMessaging (21.6.1):
+    - Firebase/Messaging (= 11.5.0)
+    - FirebaseCoreExtension
+    - React-Core
+    - RNFBApp
   - SocketRocket (0.7.0)
   - "sqlite3 (3.45.3+1)":
     - "sqlite3/common (= 3.45.3+1)"
@@ -1330,15 +1445,28 @@ DEPENDENCIES:
   - React-runtimescheduler (from `../node_modules/react-native/ReactCommon/react/renderer/runtimescheduler`)
   - React-utils (from `../node_modules/react-native/ReactCommon/react/utils`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - "RNFBAnalytics (from `../node_modules/@react-native-firebase/analytics`)"
   - "RNFBApp (from `../node_modules/@react-native-firebase/app`)"
+  - "RNFBInAppMessaging (from `../node_modules/@react-native-firebase/in-app-messaging`)"
+  - "RNFBMessaging (from `../node_modules/@react-native-firebase/messaging`)"
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
   trunk:
     - Firebase
+    - FirebaseABTesting
+    - FirebaseAnalytics
     - FirebaseCore
+    - FirebaseCoreExtension
     - FirebaseCoreInternal
+    - FirebaseInAppMessaging
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - GoogleAppMeasurement
+    - GoogleDataTransport
     - GoogleUtilities
+    - nanopb
+    - PromisesObjC
     - SocketRocket
     - sqlite3
     - ZXingObjC
@@ -1481,8 +1609,14 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/react/utils"
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
+  RNFBAnalytics:
+    :path: "../node_modules/@react-native-firebase/analytics"
   RNFBApp:
     :path: "../node_modules/@react-native-firebase/app"
+  RNFBInAppMessaging:
+    :path: "../node_modules/@react-native-firebase/in-app-messaging"
+  RNFBMessaging:
+    :path: "../node_modules/@react-native-firebase/messaging"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -1505,12 +1639,22 @@ SPEC CHECKSUMS:
   ExpoSQLite: 80476d564ec75b26ffe801f3953d876377b3c9fe
   FBLazyVector: 4b1589d37c9ff4dba11a63083fe7515fad3ac111
   Firebase: 7a56fe4f56b5ab81b86a6822f5b8f909ae6fc7e2
+  FirebaseABTesting: 42403a7ffdde1904cb063b5bc2d27dd200e37ac2
+  FirebaseAnalytics: 2f4a11eeb7a0e9c6fcf642d4e6aaca7fa4d38c28
   FirebaseCore: 93abc05437f8064cd2bc0a53b768fb0bc5a1d006
+  FirebaseCoreExtension: ddb2eb987f736b714d30f6386795b52c4670439e
   FirebaseCoreInternal: f47dd28ae7782e6a4738aad3106071a8fe0af604
+  FirebaseInAppMessaging: de1044733441fe5735576214bb5ae0b65b96de8b
+  FirebaseInstallations: d8063d302a426d114ac531cd82b1e335a0565745
+  FirebaseMessaging: 9f4e42053241bd45ce8565c881bfdd9c1df2f7da
   fmt: 4c2741a687cc09f0634a2e2c72a838b99f1ff120
   glog: fdfdfe5479092de0c4bdbebedd9056951f092c4f
+  GoogleAppMeasurement: ee5c2d2242816773fbf79e5b0563f5355ef1c315
+  GoogleDataTransport: aae35b7ea0c09004c3797d53c8c41f66f219d6a7
   GoogleUtilities: 26a3abef001b6533cf678d3eb38fd3f614b7872d
   hermes-engine: 2102c92e54a031a270fd1fe84169ec8a0901b7bd
+  nanopb: fad817b59e0457d11a5dfbde799381cd727c1275
+  PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
   RCT-Folly: 02617c592a293bd6d418e0a88ff4ee1f88329b47
   RCTDeprecation: 5f1d7e1f8ef6c53f0207e3ac0d0ca23575e8a6ab
   RCTRequired: dcfd24ece09940bbf24b7c2974f4eb68a9baee55
@@ -1559,7 +1703,10 @@ SPEC CHECKSUMS:
   React-runtimescheduler: 4f1dd41de203f80e258f8872e95a4f95d4d78122
   React-utils: 81d350ba53f31480c80622976422ad8eec0f303e
   ReactCommon: 46324531c3152a87c01cca2d6539362a6033ce45
+  RNFBAnalytics: 1eab488eb92fb35aab0ac916e00480314e995df0
   RNFBApp: a3c9c3b23aa2d77001ce62b5a997325927593c12
+  RNFBInAppMessaging: 4d68b8684bd8aa00563cecd04d5a42470b0f48d8
+  RNFBMessaging: dd213f66f36b249f9ab035efe24dc2a3ede8f8c5
   SocketRocket: abac6f5de4d4d62d24e11868d7a2f427e0ef940d
   sqlite3: 02d1f07eaaa01f80a1c16b4b31dfcbb3345ee01a
   Yoga: dbb1bd5faecc60d38ed0a2f2a75db536c759b334
