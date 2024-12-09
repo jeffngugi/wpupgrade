@@ -19,6 +19,10 @@
     "@react-native-firebase/app": "^21.6.1",
     "@react-native-firebase/in-app-messaging": "^21.6.1",
     "@react-native-firebase/messaging": "^21.6.1",
+    "@react-navigation/bottom-tabs": "^6.x",
+    "@react-navigation/material-top-tabs": "^6.x",
+    "@react-navigation/native": "^6.x",
+    "@react-navigation/stack": "^6.x",
     "expo": "^51.0.0",
     "expo-camera": "^15.0.16",
     "expo-contacts": "^13.0.5",
@@ -31,7 +35,11 @@
     "expo-status-bar": "^1.12.1",
     "react": "18.2.0",
     "react-native": "0.74.6",
-    "react-native-config": "^1.5.3"
+    "react-native-config": "^1.5.3",
+    "react-native-gesture-handler": "^2.21.2",
+    "react-native-safe-area-context": "^5.0.0",
+    "react-native-screens": "^4.3.0",
+    "react-native-tab-view": "^4.0.5"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
