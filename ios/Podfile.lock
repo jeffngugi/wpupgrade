@@ -1112,6 +1112,10 @@ PODS:
     - react-native-config/App (= 1.5.3)
   - react-native-config/App (1.5.3):
     - React-Core
+  - react-native-get-random-values (1.11.0):
+    - React-Core
+  - react-native-netinfo (11.4.1):
+    - React-Core
   - react-native-safe-area-context (5.0.0):
     - React-Core
   - React-nativeconfig (0.74.6)
@@ -1343,6 +1347,12 @@ PODS:
     - React-logger (= 0.74.6)
     - React-perflogger (= 0.74.6)
     - React-utils (= 0.74.6)
+  - RNCAsyncStorage (2.1.0):
+    - React-Core
+  - RNCClipboard (1.15.0):
+    - React-Core
+  - RNDateTimePicker (8.2.0):
+    - React-Core
   - RNFBAnalytics (21.6.1):
     - Firebase/Analytics (= 11.5.0)
     - React-Core
@@ -1407,7 +1417,12 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
+  - segment-analytics-react-native (2.20.3):
+    - React-Core
+    - sovran-react-native
   - SocketRocket (0.7.0)
+  - sovran-react-native (1.1.3):
+    - React-Core
   - "sqlite3 (3.45.3+1)":
     - "sqlite3/common (= 3.45.3+1)"
   - "sqlite3/bytecodevtab (3.45.3+1)":
@@ -1472,6 +1487,8 @@ DEPENDENCIES:
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
   - React-Mapbuffer (from `../node_modules/react-native/ReactCommon`)
   - react-native-config (from `../node_modules/react-native-config`)
+  - react-native-get-random-values (from `../node_modules/react-native-get-random-values`)
+  - "react-native-netinfo (from `../node_modules/@react-native-community/netinfo`)"
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - React-nativeconfig (from `../node_modules/react-native/ReactCommon`)
   - React-NativeModulesApple (from `../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios`)
@@ -1496,6 +1513,9 @@ DEPENDENCIES:
   - React-runtimescheduler (from `../node_modules/react-native/ReactCommon/react/renderer/runtimescheduler`)
   - React-utils (from `../node_modules/react-native/ReactCommon/react/utils`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - "RNCAsyncStorage (from `../node_modules/@react-native-async-storage/async-storage`)"
+  - "RNCClipboard (from `../node_modules/@react-native-clipboard/clipboard`)"
+  - "RNDateTimePicker (from `../node_modules/@react-native-community/datetimepicker`)"
   - "RNFBAnalytics (from `../node_modules/@react-native-firebase/analytics`)"
   - "RNFBApp (from `../node_modules/@react-native-firebase/app`)"
   - "RNFBInAppMessaging (from `../node_modules/@react-native-firebase/in-app-messaging`)"
@@ -1503,6 +1523,8 @@ DEPENDENCIES:
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - "RNNotifee (from `../node_modules/@notifee/react-native`)"
   - RNScreens (from `../node_modules/react-native-screens`)
+  - "segment-analytics-react-native (from `../node_modules/@segment/analytics-react-native`)"
+  - "sovran-react-native (from `../node_modules/@segment/sovran-react-native`)"
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -1617,6 +1639,10 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   react-native-config:
     :path: "../node_modules/react-native-config"
+  react-native-get-random-values:
+    :path: "../node_modules/react-native-get-random-values"
+  react-native-netinfo:
+    :path: "../node_modules/@react-native-community/netinfo"
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
   React-nativeconfig:
@@ -1665,6 +1691,12 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/react/utils"
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
+  RNCAsyncStorage:
+    :path: "../node_modules/@react-native-async-storage/async-storage"
+  RNCClipboard:
+    :path: "../node_modules/@react-native-clipboard/clipboard"
+  RNDateTimePicker:
+    :path: "../node_modules/@react-native-community/datetimepicker"
   RNFBAnalytics:
     :path: "../node_modules/@react-native-firebase/analytics"
   RNFBApp:
@@ -1679,6 +1711,10 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@notifee/react-native"
   RNScreens:
     :path: "../node_modules/react-native-screens"
+  segment-analytics-react-native:
+    :path: "../node_modules/@segment/analytics-react-native"
+  sovran-react-native:
+    :path: "../node_modules/@segment/sovran-react-native"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -1742,6 +1778,8 @@ SPEC CHECKSUMS:
   React-logger: de9b65c8c7b71a663e6e99d347b1c445f5190c39
   React-Mapbuffer: d8adf69e5f42c7419d6594384f8a56e641141c8e
   react-native-config: 8f7283449bbb048902f4e764affbbf24504454af
+  react-native-get-random-values: 21325b2244dfa6b58878f51f9aa42821e7ba3d06
+  react-native-netinfo: f0a9899081c185db1de5bb2fdc1c88c202a059ac
   react-native-safe-area-context: ab7beb734b0f9f79f55ae144a6c946a6422f55d6
   React-nativeconfig: bf6ea7351e761f3ab837b9fc406576c56492f57a
   React-NativeModulesApple: d127c66e52964d33c7fb694ce98c078ea899dd16
@@ -1766,6 +1804,9 @@ SPEC CHECKSUMS:
   React-runtimescheduler: 4f1dd41de203f80e258f8872e95a4f95d4d78122
   React-utils: 81d350ba53f31480c80622976422ad8eec0f303e
   ReactCommon: 46324531c3152a87c01cca2d6539362a6033ce45
+  RNCAsyncStorage: cc6479c4acd84cc7004946946c8afe30b018184d
+  RNCClipboard: 69ab8e51324d5b351f6ba72bbdb72478087a2c64
+  RNDateTimePicker: 40ffda97d071a98a10fdca4fa97e3977102ccd14
   RNFBAnalytics: 1eab488eb92fb35aab0ac916e00480314e995df0
   RNFBApp: a3c9c3b23aa2d77001ce62b5a997325927593c12
   RNFBInAppMessaging: 4d68b8684bd8aa00563cecd04d5a42470b0f48d8
@@ -1773,7 +1814,9 @@ SPEC CHECKSUMS:
   RNGestureHandler: 38b7949a58a56ae0e2a3c38920cb6852cafb6b9f
   RNNotifee: 522276e0be010e98173175fb838514b69f18cbe0
   RNScreens: d090bfb033bb48f8da0983999ea58868e813cb80
+  segment-analytics-react-native: d57ed4971cbb995706babf29215ebdbf242ecdab
   SocketRocket: abac6f5de4d4d62d24e11868d7a2f427e0ef940d
+  sovran-react-native: eec37f82e4429f0e3661f46aaf4fcd85d1b54f60
   sqlite3: 02d1f07eaaa01f80a1c16b4b31dfcbb3345ee01a
   Yoga: dbb1bd5faecc60d38ed0a2f2a75db536c759b334
   ZXingObjC: 8898711ab495761b2dbbdec76d90164a6d7e14c5
