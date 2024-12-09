@@ -3151,6 +3151,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@notifee/react-native@npm:^9.1.3":
+  version: 9.1.3
+  resolution: "@notifee/react-native@npm:9.1.3"
+  peerDependencies:
+    react-native: "*"
+  checksum: cf37a6ab404937be62b2c4a94fdd8ee735eb1a8adfc8fc087dd4a3ce6d8234bc30b3417a4be180de5da2ead2d1a3c1ddb8519cb98d24d062fd4d858ec39d9337
+  languageName: node
+  linkType: hard
+
 "@npmcli/agent@npm:^2.0.0":
   version: 2.2.2
   resolution: "@npmcli/agent@npm:2.2.2"
@@ -4352,6 +4361,7 @@ __metadata:
     "@babel/core": ^7.20.0
     "@babel/preset-env": ^7.20.0
     "@babel/runtime": ^7.20.0
+    "@notifee/react-native": ^9.1.3
     "@react-native-firebase/analytics": ^21.6.1
     "@react-native-firebase/app": ^21.6.1
     "@react-native-firebase/in-app-messaging": ^21.6.1
