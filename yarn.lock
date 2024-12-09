@@ -6354,6 +6354,8 @@ __metadata:
     libphonenumber-js: ^1.11.16
     literal-case: ^1.0.0
     lodash: ^4.17.21
+    lottie-ios: ^4.5.0
+    lottie-react-native: ^7.1.0
     prettier: 2.8.8
     react: 18.2.0
     react-native: 0.74.6
@@ -11780,6 +11782,30 @@ __metadata:
   bin:
     loose-envify: cli.js
   checksum: 6517e24e0cad87ec9888f500c5b5947032cdfe6ef65e1c1936a0c48a524b81e65542c9c3edc91c97d5bddc806ee2a985dbc79be89215d613b1de5db6d1cfe6f4
+  languageName: node
+  linkType: hard
+
+"lottie-ios@npm:^4.5.0":
+  version: 4.5.0
+  resolution: "lottie-ios@npm:4.5.0"
+  checksum: 56963b4b0633889c655eb0867f8b8ae671ac437d4932cf4414d1ce758ce34816d9d92b05307d202582ef44ec37b14fd5b2528f20cc0a2fc1f9018b938f6ca5fb
+  languageName: node
+  linkType: hard
+
+"lottie-react-native@npm:^7.1.0":
+  version: 7.1.0
+  resolution: "lottie-react-native@npm:7.1.0"
+  peerDependencies:
+    "@lottiefiles/dotlottie-react": ^0.6.5
+    react: "*"
+    react-native: ">=0.46"
+    react-native-windows: ">=0.63.x"
+  peerDependenciesMeta:
+    "@lottiefiles/dotlottie-react":
+      optional: true
+    react-native-windows:
+      optional: true
+  checksum: ee8d5661db33701b6f721271e385a8489c946de01d4488314e4cdfb7d3b4d79dcb9e155dda281a53bf3730497efd638da88f7ab2494b5f6e5014ea40bf3cc146
   languageName: node
   linkType: hard
 
