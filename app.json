@@ -1,4 +1,16 @@
 {
   "name": "Workpay",
-  "displayName": "Workpay"
+  "displayName": "Workpay",
+  "expo": {
+    "plugins": [
+      [
+        "@sentry/react-native/expo",
+        {
+          "url": "https://sentry.io/",
+          "project": "work_pay_react_native",
+          "organization": "aal"
+        }
+      ]
+    ]
+  }
 }
