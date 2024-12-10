@@ -11,6 +11,7 @@
     "start": "react-native start",
     "android-staging": "react-native run-android --mode=releasestaging",
     "android-production": "react-native run-android --mode=release",
+    "clean-ios": "cd ios && rm -rf Pods && rm -rf Podfile.lock && rm -rf build && pod deintegrate && cd ..",
     "test": "jest"
   },
   "dependencies": {
