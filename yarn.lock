@@ -7404,6 +7404,8 @@ __metadata:
     react-native-biometrics: ^3.0.1
     react-native-blob-util: ^0.19.11
     react-native-config: ^1.5.3
+    react-native-confirmation-code-field: ^7.4.0
+    react-native-contacts: ^7.0.8
     react-native-gesture-handler: ^2.21.2
     react-native-get-random-values: ^1.11.0
     react-native-safe-area-context: ^5.0.0
@@ -14908,6 +14910,30 @@ __metadata:
     react-native-windows:
       optional: true
   checksum: 0eb74e0a10ae6e96422671482da83dea16571f4f5ad848d1f18015dccbecb9cbc066788df72a88c630abf4aed0edb7616ec27704817cff18bd6ed7d61979d671
+  languageName: node
+  linkType: hard
+
+"react-native-confirmation-code-field@npm:^7.4.0":
+  version: 7.4.0
+  resolution: "react-native-confirmation-code-field@npm:7.4.0"
+  peerDependencies:
+    react: ">=16.4.0"
+    react-native: ">=0.64.0"
+  peerDependenciesMeta:
+    react:
+      optional: true
+    react-native:
+      optional: true
+  checksum: 1b12535c5037994cb4c5aee4a0d72d0034bb41bc8cda15aec99e1570174b5980fef5d3c54e450a87a387af26265f74813bdb889aef600e3a15242ac940c0f29d
+  languageName: node
+  linkType: hard
+
+"react-native-contacts@npm:^7.0.8":
+  version: 7.0.8
+  resolution: "react-native-contacts@npm:7.0.8"
+  peerDependencies:
+    react-native: ">=0.64.0"
+  checksum: 5a2f3084f47c935da60694cd60a96f27e7836dbd8b12a89561a22b93131df9c792d8ff75830d953ac4349782bf0c9265ea9d7b28312b20ba5731e90aeaf09b94
   languageName: node
   linkType: hard
 
