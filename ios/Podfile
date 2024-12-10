@@ -34,6 +34,8 @@ target 'Workpay' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
+  pod 'react-native-blob-util', :path => '../node_modules/react-native-blob-util'
+
   target 'WorkpayTests' do
     inherit! :complete
     # Pods for testing
