@@ -7409,6 +7409,7 @@ __metadata:
     react-native-device-info: ^14.0.1
     react-native-document-picker: ^9.3.1
     react-native-dropdown-picker: ^5.4.6
+    react-native-file-viewer: ^2.1.5
     react-native-gesture-handler: ^2.21.2
     react-native-get-random-values: ^1.11.0
     react-native-safe-area-context: ^5.0.0
@@ -14972,6 +14973,15 @@ __metadata:
     react: "*"
     react-native: "*"
   checksum: d81ee3d68c17107a4d21dbdf9c2fe2ffe4bf4398973d10113139aadc0674221ce5038b945299fba2abc796930ec5e6d5f84291945bf903344493a15b8e2fca43
+  languageName: node
+  linkType: hard
+
+"react-native-file-viewer@npm:^2.1.5":
+  version: 2.1.5
+  resolution: "react-native-file-viewer@npm:2.1.5"
+  peerDependencies:
+    react-native: ">=0.47"
+  checksum: 390e1e3ce20c3b2fb7d2394d6bedf1c6c5d25f799fb5b344c7ecb72267327403caf2528916a7419e094caecccf41dac8b62dd0d31fa5991725e36dcdd24b725e
   languageName: node
   linkType: hard
 

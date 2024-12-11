@@ -1402,6 +1402,8 @@ PODS:
     - FirebaseCoreExtension
     - React-Core
     - RNFBApp
+  - RNFileViewer (2.1.5):
+    - React-Core
   - RNFlashList (1.7.2):
     - DoubleConversion
     - glog
@@ -1607,6 +1609,7 @@ DEPENDENCIES:
   - "RNFBApp (from `../node_modules/@react-native-firebase/app`)"
   - "RNFBInAppMessaging (from `../node_modules/@react-native-firebase/in-app-messaging`)"
   - "RNFBMessaging (from `../node_modules/@react-native-firebase/messaging`)"
+  - RNFileViewer (from `../node_modules/react-native-file-viewer`)
   - "RNFlashList (from `../node_modules/@shopify/flash-list`)"
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - "RNNotifee (from `../node_modules/@notifee/react-native`)"
@@ -1810,6 +1813,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@react-native-firebase/in-app-messaging"
   RNFBMessaging:
     :path: "../node_modules/@react-native-firebase/messaging"
+  RNFileViewer:
+    :path: "../node_modules/react-native-file-viewer"
   RNFlashList:
     :path: "../node_modules/@shopify/flash-list"
   RNGestureHandler:
@@ -1929,6 +1934,7 @@ SPEC CHECKSUMS:
   RNFBApp: a3c9c3b23aa2d77001ce62b5a997325927593c12
   RNFBInAppMessaging: 4d68b8684bd8aa00563cecd04d5a42470b0f48d8
   RNFBMessaging: dd213f66f36b249f9ab035efe24dc2a3ede8f8c5
+  RNFileViewer: ce7ca3ac370e18554d35d6355cffd7c30437c592
   RNFlashList: b0cacef411c97a4a284be5a7303c58a715258523
   RNGestureHandler: 38b7949a58a56ae0e2a3c38920cb6852cafb6b9f
   RNNotifee: 522276e0be010e98173175fb838514b69f18cbe0
