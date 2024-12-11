@@ -7408,6 +7408,7 @@ __metadata:
     react-native-contacts: ^7.0.8
     react-native-device-info: ^14.0.1
     react-native-document-picker: ^9.3.1
+    react-native-dropdown-picker: ^5.4.6
     react-native-gesture-handler: ^2.21.2
     react-native-get-random-values: ^1.11.0
     react-native-safe-area-context: ^5.0.0
@@ -14961,6 +14962,16 @@ __metadata:
     react-native-windows:
       optional: true
   checksum: 5979e4b93f15e0568ae70b70cc2304cd727f20939a58412d483517942df6d3cf3821319b3b7934bcaa2866ed1918ef9e8de9933ce6953209340abe3455403e0d
+  languageName: node
+  linkType: hard
+
+"react-native-dropdown-picker@npm:^5.4.6":
+  version: 5.4.6
+  resolution: "react-native-dropdown-picker@npm:5.4.6"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: d81ee3d68c17107a4d21dbdf9c2fe2ffe4bf4398973d10113139aadc0674221ce5038b945299fba2abc796930ec5e6d5f84291945bf903344493a15b8e2fca43
   languageName: node
   linkType: hard
 
