@@ -7413,6 +7413,8 @@ __metadata:
     react-native-fs: ^2.20.0
     react-native-gesture-handler: ^2.21.2
     react-native-get-random-values: ^1.11.0
+    react-native-gifted-charts: ^1.4.47
+    react-native-linear-gradient: ^2.8.3
     react-native-safe-area-context: ^5.0.0
     react-native-screens: ^4.3.0
     react-native-svg: 12.1.1
@@ -10784,6 +10786,16 @@ __metadata:
   dependencies:
     assert-plus: ^1.0.0
   checksum: ab18d55661db264e3eac6012c2d3daeafaab7a501c035ae0ccb193c3c23e9849c6e29b6ac762b9c2adae460266f925d55a3a2a3a3c8b94be2f222df94d70c046
+  languageName: node
+  linkType: hard
+
+"gifted-charts-core@npm:0.1.47":
+  version: 0.1.47
+  resolution: "gifted-charts-core@npm:0.1.47"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: d6493b4bceeef38e7a968bccb729bd153cf36eb0953683a73f2315213f4d6f253ed79e207981b4e781d29a87001f25fac79ec782075bc524a6ef15685d3949db
   languageName: node
   linkType: hard
 
@@ -15028,6 +15040,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-native-gifted-charts@npm:^1.4.47":
+  version: 1.4.47
+  resolution: "react-native-gifted-charts@npm:1.4.47"
+  dependencies:
+    gifted-charts-core: 0.1.47
+  peerDependencies:
+    expo-linear-gradient: "*"
+    react: "*"
+    react-native: "*"
+    react-native-linear-gradient: "*"
+    react-native-svg: "*"
+  peerDependenciesMeta:
+    expo-linear-gradient:
+      optional: true
+    react-native-linear-gradient:
+      optional: true
+  checksum: f9cd4b21a1253df75929b8a464e030df16035f3f7744ff6fb4d6d44fe92d7427602ee1c049fd553aac66c3aff5e935feafb63b5d5ae7a0a3f147a928ca2b5283
+  languageName: node
+  linkType: hard
+
 "react-native-iphone-x-helper@npm:^1.0.3":
   version: 1.3.1
   resolution: "react-native-iphone-x-helper@npm:1.3.1"
@@ -15046,6 +15078,16 @@ __metadata:
   peerDependencies:
     react-native: ">=0.48.4"
   checksum: 5eec2aedb886213dfed4c8428a443b565dce80ba9fcf5897171e4c8829d4dd64c5011ac004d93f29adfc83ad6f88c2838d1a5b45255dc4a49bd1c0a169245800
+  languageName: node
+  linkType: hard
+
+"react-native-linear-gradient@npm:^2.8.3":
+  version: 2.8.3
+  resolution: "react-native-linear-gradient@npm:2.8.3"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: f980d324e551bbc475c6406bdc5250a08242020cbe653412fa169bbdf51e28a502e225de105b4d696d6a1a1b733d44782469020f4936d8b3ce0e2c78e51cf58f
   languageName: node
   linkType: hard
 
