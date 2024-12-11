@@ -1122,6 +1122,27 @@ PODS:
     - React-Core
   - react-native-contacts (7.0.8):
     - React-Core
+  - react-native-document-picker (9.3.1):
+    - DoubleConversion
+    - glog
+    - hermes-engine
+    - RCT-Folly (= 2024.01.01.00)
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Codegen
+    - React-Core
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-ImageManager
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-rendererdebug
+    - React-utils
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - Yoga
   - react-native-get-random-values (1.11.0):
     - React-Core
   - react-native-netinfo (11.4.1):
@@ -1363,6 +1384,8 @@ PODS:
     - React-Core
   - RNDateTimePicker (8.2.0):
     - React-Core
+  - RNDeviceInfo (14.0.1):
+    - React-Core
   - RNFBAnalytics (21.6.1):
     - Firebase/Analytics (= 11.5.0)
     - React-Core
@@ -1549,6 +1572,7 @@ DEPENDENCIES:
   - react-native-blob-util (from `../node_modules/react-native-blob-util`)
   - react-native-config (from `../node_modules/react-native-config`)
   - react-native-contacts (from `../node_modules/react-native-contacts`)
+  - react-native-document-picker (from `../node_modules/react-native-document-picker`)
   - react-native-get-random-values (from `../node_modules/react-native-get-random-values`)
   - "react-native-netinfo (from `../node_modules/@react-native-community/netinfo`)"
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
@@ -1578,6 +1602,7 @@ DEPENDENCIES:
   - "RNCAsyncStorage (from `../node_modules/@react-native-async-storage/async-storage`)"
   - "RNCClipboard (from `../node_modules/@react-native-clipboard/clipboard`)"
   - "RNDateTimePicker (from `../node_modules/@react-native-community/datetimepicker`)"
+  - RNDeviceInfo (from `../node_modules/react-native-device-info`)
   - "RNFBAnalytics (from `../node_modules/@react-native-firebase/analytics`)"
   - "RNFBApp (from `../node_modules/@react-native-firebase/app`)"
   - "RNFBInAppMessaging (from `../node_modules/@react-native-firebase/in-app-messaging`)"
@@ -1715,6 +1740,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-config"
   react-native-contacts:
     :path: "../node_modules/react-native-contacts"
+  react-native-document-picker:
+    :path: "../node_modules/react-native-document-picker"
   react-native-get-random-values:
     :path: "../node_modules/react-native-get-random-values"
   react-native-netinfo:
@@ -1773,6 +1800,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@react-native-clipboard/clipboard"
   RNDateTimePicker:
     :path: "../node_modules/@react-native-community/datetimepicker"
+  RNDeviceInfo:
+    :path: "../node_modules/react-native-device-info"
   RNFBAnalytics:
     :path: "../node_modules/@react-native-firebase/analytics"
   RNFBApp:
@@ -1865,6 +1894,7 @@ SPEC CHECKSUMS:
   react-native-blob-util: 39a20f2ef11556d958dc4beb0aa07d1ef2690745
   react-native-config: 8f7283449bbb048902f4e764affbbf24504454af
   react-native-contacts: cb4f3b823550adbce0802901b9e63bf1526ec0af
+  react-native-document-picker: 7bddf5a35d8829e9c6b8158bc44eb4229b01a7ea
   react-native-get-random-values: 21325b2244dfa6b58878f51f9aa42821e7ba3d06
   react-native-netinfo: f0a9899081c185db1de5bb2fdc1c88c202a059ac
   react-native-safe-area-context: ab7beb734b0f9f79f55ae144a6c946a6422f55d6
@@ -1894,6 +1924,7 @@ SPEC CHECKSUMS:
   RNCAsyncStorage: cc6479c4acd84cc7004946946c8afe30b018184d
   RNCClipboard: 69ab8e51324d5b351f6ba72bbdb72478087a2c64
   RNDateTimePicker: 40ffda97d071a98a10fdca4fa97e3977102ccd14
+  RNDeviceInfo: 825f0d2f4381327317f12d1522720a8f76e6a19e
   RNFBAnalytics: 1eab488eb92fb35aab0ac916e00480314e995df0
   RNFBApp: a3c9c3b23aa2d77001ce62b5a997325927593c12
   RNFBInAppMessaging: 4d68b8684bd8aa00563cecd04d5a42470b0f48d8
