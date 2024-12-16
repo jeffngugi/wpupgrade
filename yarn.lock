@@ -7420,6 +7420,7 @@ __metadata:
     react-native-linear-gradient: ^2.8.3
     react-native-localize: ^3.3.0
     react-native-modal: ^13.0.1
+    react-native-modal-datetime-picker: ^18.0.0
     react-native-safe-area-context: ^5.0.0
     react-native-screens: ^4.3.0
     react-native-svg: 12.1.1
@@ -15138,6 +15139,18 @@ __metadata:
     react-native-macos:
       optional: true
   checksum: b6abffb3bbe3a47f171afb4d9a5ca1268576bf191d5ebe9f929308acd5892e67aedf4a5ef5d65eae67482ef357dc644791e8492c38c3d1cdfa449d63ab9b7df9
+  languageName: node
+  linkType: hard
+
+"react-native-modal-datetime-picker@npm:^18.0.0":
+  version: 18.0.0
+  resolution: "react-native-modal-datetime-picker@npm:18.0.0"
+  dependencies:
+    prop-types: ^15.7.2
+  peerDependencies:
+    "@react-native-community/datetimepicker": ">=6.7.0"
+    react-native: ">=0.65.0"
+  checksum: 30d28a8e599c7a36df4c3e93928aa246087edb95a82a98cb1162b045d18db47447c4e28a89190c83a8258f080066531b2b67805a9aeb007b135d62abfccf8c4c
   languageName: node
   linkType: hard
 
