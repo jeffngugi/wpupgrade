@@ -7414,6 +7414,9 @@ __metadata:
     react-native-gesture-handler: ^2.21.2
     react-native-get-random-values: ^1.11.0
     react-native-gifted-charts: ^1.4.47
+    react-native-image-picker: ^7.2.3
+    react-native-indicators: ^0.17.0
+    react-native-keyboard-aware-scroll-view: ^0.9.5
     react-native-linear-gradient: ^2.8.3
     react-native-safe-area-context: ^5.0.0
     react-native-screens: ^4.3.0
@@ -14634,7 +14637,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:15.8.1, prop-types@npm:^15.6.2, prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
+"prop-types@npm:15.8.1, prop-types@npm:^15.5.10, prop-types@npm:^15.6.2, prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -15057,6 +15060,28 @@ __metadata:
     react-native-linear-gradient:
       optional: true
   checksum: f9cd4b21a1253df75929b8a464e030df16035f3f7744ff6fb4d6d44fe92d7427602ee1c049fd553aac66c3aff5e935feafb63b5d5ae7a0a3f147a928ca2b5283
+  languageName: node
+  linkType: hard
+
+"react-native-image-picker@npm:^7.2.3":
+  version: 7.2.3
+  resolution: "react-native-image-picker@npm:7.2.3"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 96d67516e8e1c1768c593ca1b0a507d5212d8ac5df2610ad9d6f38c188b8d0720966559867849f74b6c19d2500664ce17c907e5fa37ab72487abd363cf493e7d
+  languageName: node
+  linkType: hard
+
+"react-native-indicators@npm:^0.17.0":
+  version: 0.17.0
+  resolution: "react-native-indicators@npm:0.17.0"
+  dependencies:
+    prop-types: ^15.5.10
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 69d0d485b6a4d81f2daaa98ca9029d0ed760470a5ae9c5cce2b81132224b5116ea9bd6829c6bc0d7b0203db4c43e876020005122c306f1a5734c4629c4bb7933
   languageName: node
   linkType: hard
 
