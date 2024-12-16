@@ -7421,6 +7421,7 @@ __metadata:
     react-native-localize: ^3.3.0
     react-native-modal: ^13.0.1
     react-native-modal-datetime-picker: ^18.0.0
+    react-native-month-year-picker: ^1.9.0
     react-native-safe-area-context: ^5.0.0
     react-native-screens: ^4.3.0
     react-native-svg: 12.1.1
@@ -13676,7 +13677,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"moment@npm:^2.30.1":
+"moment@npm:^2.29.4, moment@npm:^2.30.1":
   version: 2.30.1
   resolution: "moment@npm:2.30.1"
   checksum: 859236bab1e88c3e5802afcf797fc801acdbd0ee509d34ea3df6eea21eb6bcc2abd4ae4e4e64aa7c986aa6cba563c6e62806218e6412a765010712e5fa121ba6
@@ -15164,6 +15165,19 @@ __metadata:
     react: "*"
     react-native: ">=0.65.0"
   checksum: 15985fd6aaae7a2134ec1003c63abd384f4a17beabd0a80b74033c98eccee29161aa07150f479373fb43106cfb33b5837b7a4f1d2b721ff03b3727490c830a07
+  languageName: node
+  linkType: hard
+
+"react-native-month-year-picker@npm:^1.9.0":
+  version: 1.9.0
+  resolution: "react-native-month-year-picker@npm:1.9.0"
+  dependencies:
+    invariant: ^2.2.4
+    moment: ^2.29.4
+  peerDependencies:
+    react: ">= 16.11.0"
+    react-native: ">= 0.60.0"
+  checksum: 751291652cf1f1aa5198bc794c2855be52b50567b09086c60ad791db25939750cbe0c3d079023343728d3e45e14d073ee69d573ffa0065c562f29e26c91134d9
   languageName: node
   linkType: hard
 
