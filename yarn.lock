@@ -7422,6 +7422,7 @@ __metadata:
     react-native-modal: ^13.0.1
     react-native-modal-datetime-picker: ^18.0.0
     react-native-month-year-picker: ^1.9.0
+    react-native-pager-view: ^6.6.1
     react-native-safe-area-context: ^5.0.0
     react-native-screens: ^4.3.0
     react-native-svg: 12.1.1
@@ -15178,6 +15179,16 @@ __metadata:
     react: ">= 16.11.0"
     react-native: ">= 0.60.0"
   checksum: 751291652cf1f1aa5198bc794c2855be52b50567b09086c60ad791db25939750cbe0c3d079023343728d3e45e14d073ee69d573ffa0065c562f29e26c91134d9
+  languageName: node
+  linkType: hard
+
+"react-native-pager-view@npm:^6.6.1":
+  version: 6.6.1
+  resolution: "react-native-pager-view@npm:6.6.1"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 85488c464c58fc4420ac626169754f50aeaa6f9a4d4964c4d8a73352057827540a5108914f9b031c737e6d83e35223a353c7e3b0557a6151c4a48bf6f7a8b395
   languageName: node
   linkType: hard
 

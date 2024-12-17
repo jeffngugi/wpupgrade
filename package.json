@@ -106,6 +106,7 @@
     "react-native-modal": "^13.0.1",
     "react-native-modal-datetime-picker": "^18.0.0",
     "react-native-month-year-picker": "^1.9.0",
+    "react-native-pager-view": "^6.6.1",
     "react-native-safe-area-context": "^5.0.0",
     "react-native-screens": "^4.3.0",
     "react-native-svg": "12.1.1",
