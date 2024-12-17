@@ -107,6 +107,7 @@
     "react-native-modal-datetime-picker": "^18.0.0",
     "react-native-month-year-picker": "^1.9.0",
     "react-native-pager-view": "^6.6.1",
+    "react-native-permissions": "^5.2.1",
     "react-native-safe-area-context": "^5.0.0",
     "react-native-screens": "^4.3.0",
     "react-native-svg": "12.1.1",
@@ -130,6 +131,16 @@
     "react-test-renderer": "18.2.0",
     "typescript": "5.0.4"
   },
+  "reactNativePermissionsIOS": [
+    "Camera",
+    "Contacts",
+    "LocationAccuracy",
+    "LocationAlways",
+    "LocationWhenInUse",
+    "MediaLibrary",
+    "PhotoLibrary",
+    "PhotoLibraryAddOnly"
+  ],
   "engines": {
     "node": ">=18"
   },

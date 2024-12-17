@@ -7423,6 +7423,7 @@ __metadata:
     react-native-modal-datetime-picker: ^18.0.0
     react-native-month-year-picker: ^1.9.0
     react-native-pager-view: ^6.6.1
+    react-native-permissions: ^5.2.1
     react-native-safe-area-context: ^5.0.0
     react-native-screens: ^4.3.0
     react-native-svg: 12.1.1
@@ -15189,6 +15190,20 @@ __metadata:
     react: "*"
     react-native: "*"
   checksum: 85488c464c58fc4420ac626169754f50aeaa6f9a4d4964c4d8a73352057827540a5108914f9b031c737e6d83e35223a353c7e3b0557a6151c4a48bf6f7a8b395
+  languageName: node
+  linkType: hard
+
+"react-native-permissions@npm:^5.2.1":
+  version: 5.2.1
+  resolution: "react-native-permissions@npm:5.2.1"
+  peerDependencies:
+    react: ">=18.1.0"
+    react-native: ">=0.70.0"
+    react-native-windows: ">=0.70.0"
+  peerDependenciesMeta:
+    react-native-windows:
+      optional: true
+  checksum: a57b0a6c71c38bb126e48e76b8eef7e62bee8083d748ec1cf7e7b5699d46867b10e96a02837c45a045b77dab37e45a5c20b1deb3637ad5cee963c9e92c6ee05a
   languageName: node
   linkType: hard
 
