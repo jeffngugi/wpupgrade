@@ -1635,6 +1635,27 @@ PODS:
     - ReactCommon/turbomodule/core
     - Sentry/HybridSDK (= 8.41.0)
     - Yoga
+  - RNShare (12.0.3):
+    - DoubleConversion
+    - glog
+    - hermes-engine
+    - RCT-Folly (= 2024.01.01.00)
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Codegen
+    - React-Core
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-ImageManager
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-rendererdebug
+    - React-utils
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - Yoga
   - RNSVG (12.1.1):
     - React
   - segment-analytics-react-native (2.20.3):
@@ -1762,6 +1783,7 @@ DEPENDENCIES:
   - RNReanimated (from `../node_modules/react-native-reanimated`)
   - RNScreens (from `../node_modules/react-native-screens`)
   - "RNSentry (from `../node_modules/@sentry/react-native`)"
+  - RNShare (from `../node_modules/react-native-share`)
   - RNSVG (from `../node_modules/react-native-svg`)
   - "segment-analytics-react-native (from `../node_modules/@segment/analytics-react-native`)"
   - "sovran-react-native (from `../node_modules/@segment/sovran-react-native`)"
@@ -1988,6 +2010,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-screens"
   RNSentry:
     :path: "../node_modules/@sentry/react-native"
+  RNShare:
+    :path: "../node_modules/react-native-share"
   RNSVG:
     :path: "../node_modules/react-native-svg"
   segment-analytics-react-native:
@@ -2111,6 +2135,7 @@ SPEC CHECKSUMS:
   RNReanimated: d64471856524d7acd1308440f89c96cb6e9808f3
   RNScreens: d090bfb033bb48f8da0983999ea58868e813cb80
   RNSentry: 83622433f35653dfda94997cfbab69ae9025cd78
+  RNShare: adc59dd7db51102173dea7fb1e5d2bb58b930578
   RNSVG: 551acb6562324b1d52a4e0758f7ca0ec234e278f
   segment-analytics-react-native: d57ed4971cbb995706babf29215ebdbf242ecdab
   Sentry: 54d0fe6c0df448497c8ed4cce66ccf7027e1823e

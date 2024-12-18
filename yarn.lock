@@ -7825,6 +7825,7 @@ __metadata:
     react-native-reanimated: ^3.16.5
     react-native-safe-area-context: ^5.0.0
     react-native-screens: ^4.3.0
+    react-native-share: ^12.0.3
     react-native-svg: 12.1.1
     react-native-tab-view: ^4.0.5
     react-test-renderer: 18.2.0
@@ -15770,6 +15771,13 @@ __metadata:
     react: "*"
     react-native: "*"
   checksum: b43ae4145e264582732ec53c78ba88de678c8ce7f9687b0526bf647c7d1ea8311ee821945848a55fb04f145bf8cae189d2d4e0f49e52571cb23acf083f2df858
+  languageName: node
+  linkType: hard
+
+"react-native-share@npm:^12.0.3":
+  version: 12.0.3
+  resolution: "react-native-share@npm:12.0.3"
+  checksum: f95c5c21f7a596b53703259c3ed14763e9169ebff9ff27affdbc357a4eeb0cc50aa80830955d8aea18a9eb6718cc0ed7d904cc1f529832ae5b427ea2c6273034
   languageName: node
   linkType: hard
 
