@@ -15,7 +15,7 @@ const App = () => {
   return (
     <View style={{alignItems: 'center', flex: 1, justifyContent: 'center'}}>
       <Text>Test react native config for android</Text>
-      <Text> Installed expo local authenticaljlkjlltion</Text>
+      <Text> Installed expo local authenticaljlkjllgittion</Text>
       <Button
         title="Try!"
         onPress={() => {
@@ -23,7 +23,7 @@ const App = () => {
         }}
       />
     </View>
-  );
+  );ci
 };
 
 export default App;
