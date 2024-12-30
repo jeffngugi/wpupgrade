@@ -15,7 +15,7 @@ const App = () => {
   return (
     <View style={{alignItems: 'center', flex: 1, justifyContent: 'center'}}>
       <Text>Test react native config for android</Text>
-      <Text> Installed expo local authentication</Text>
+      <Text> Installed expo local authenticaljlkjlltion</Text>
       <Button
         title="Try!"
         onPress={() => {
