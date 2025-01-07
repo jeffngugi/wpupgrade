@@ -14,8 +14,8 @@ const App = () => {
   console.log('The config is', Config);
   return (
     <View style={{alignItems: 'center', flex: 1, justifyContent: 'center'}}>
-      <Text>Test react native config for android</Text>
-      <Text> Installed expo local authenticaljlkjllgittion</Text>
+      <Text>Test react native config for ansdsdsdroid</Text>
+      <Text> Installed expo local authentication</Text>
       <Button
         title="Try!"
         onPress={() => {
@@ -23,7 +23,7 @@ const App = () => {
         }}
       />
     </View>
-  );ci
+  );
 };
 
 export default App;
