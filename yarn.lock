@@ -8471,6 +8471,8 @@ __metadata:
     native-base: 3.4.0
     patch-package: ^8.0.0
     path-to-regexp: ^8.2.0
+    pod-install: ^0.3.2
+    postinstall-postinstall: ^2.1.0
     prettier: 2.8.8
     quick-lru: ^7.0.0
     react: 18.2.0
@@ -17218,6 +17220,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"pod-install@npm:^0.3.2":
+  version: 0.3.2
+  resolution: "pod-install@npm:0.3.2"
+  bin:
+    pod-install: build/index.js
+  checksum: b103225e57f4148b83b5fa1f1847e56a6cf1d896cba7be5d045adababf3ee37a4d79acf71bfa5bf2689d363da154a3e65529c2581f7734ad0402d6d25133933a
+  languageName: node
+  linkType: hard
+
 "possible-typed-array-names@npm:^1.0.0":
   version: 1.0.0
   resolution: "possible-typed-array-names@npm:1.0.0"
@@ -17233,6 +17244,13 @@ __metadata:
     picocolors: ^1.1.0
     source-map-js: ^1.2.1
   checksum: f78440a9d8f97431dd2ab1ab8e1de64f12f3eff38a3d8d4a33919b96c381046a314658d2de213a5fa5eb296b656de76a3ec269fdea27f16d5ab465b916a0f52c
+  languageName: node
+  linkType: hard
+
+"postinstall-postinstall@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "postinstall-postinstall@npm:2.1.0"
+  checksum: e1d34252cf8d2c5641c7d2db7426ec96e3d7a975f01c174c68f09ef5b8327bc8d5a9aa2001a45e693db2cdbf69577094d3fe6597b564ad2d2202b65fba76134b
   languageName: node
   linkType: hard
 
