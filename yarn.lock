@@ -7589,6 +7589,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tsconfig/react-native@npm:^3.0.5":
+  version: 3.0.5
+  resolution: "@tsconfig/react-native@npm:3.0.5"
+  checksum: e59df75d2be36073ed08f619ef9819037d49b484129e6d920f40847e041a8789d232a16a809edebe70a8ea6927da0560eff2b87848f1d6d35d8ba65fb5784910
+  languageName: node
+  linkType: hard
+
 "@types/babel__core@npm:^7.1.14":
   version: 7.20.5
   resolution: "@types/babel__core@npm:7.20.5"
@@ -7630,12 +7637,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/common-tags@npm:^1.8.4":
+  version: 1.8.4
+  resolution: "@types/common-tags@npm:1.8.4"
+  checksum: 9fad055269bd31eecd910fbf34acb80332b0c21e0fe8fd459df2dec11c183a3da3c96590964289ebd63a39658c23ca4412cc116558cde5a43a2738ff8056d765
+  languageName: node
+  linkType: hard
+
 "@types/conventional-commits-parser@npm:^5.0.0":
   version: 5.0.1
   resolution: "@types/conventional-commits-parser@npm:5.0.1"
   dependencies:
     "@types/node": "*"
   checksum: b4eb4f22051d42e7ed9fd3bffe6ea0cf62ae493a3c6c775a16babbad977c934f4c09ec3fa93020894de2073d63cfcd3a27dd5f00984966161da6797dd88a0f0d
+  languageName: node
+  linkType: hard
+
+"@types/flat@npm:^5.0.5":
+  version: 5.0.5
+  resolution: "@types/flat@npm:5.0.5"
+  checksum: 4a61064dc7c226292c9917aafe91fa141004f26b56ae6326c3e1795281c2e4353509c0f98be1716ec5561902b71dc76679ef890f097e9b3852a2116ba12ccc09
   languageName: node
   linkType: hard
 
@@ -7655,13 +7676,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/hoist-non-react-statics@npm:3, @types/hoist-non-react-statics@npm:^3.3.1":
+"@types/hoist-non-react-statics@npm:3, @types/hoist-non-react-statics@npm:^3.3.1, @types/hoist-non-react-statics@npm:^3.3.6":
   version: 3.3.6
   resolution: "@types/hoist-non-react-statics@npm:3.3.6"
   dependencies:
     "@types/react": "*"
     hoist-non-react-statics: ^3.3.0
   checksum: f03e43bd081876c49584ffa0eb690d69991f258203efca44dcc30efdda49a50653ff06402917d1edc9cb7e2adebbe9e2d1d0e739bc99c1b5372103b1cc534e47
+  languageName: node
+  linkType: hard
+
+"@types/humps@npm:^2.0.6":
+  version: 2.0.6
+  resolution: "@types/humps@npm:2.0.6"
+  checksum: a3090b452fe98edbefa8e69a417b0aadb2faa529616ccc2b56e3e7bb1543863081ef30d247a064cbf4f0ef042c20a3212817f574c9767a6fdbe36c9bbfbd88c2
   languageName: node
   linkType: hard
 
@@ -7697,6 +7725,16 @@ __metadata:
   dependencies:
     "@types/istanbul-lib-report": "*"
   checksum: 93eb18835770b3431f68ae9ac1ca91741ab85f7606f310a34b3586b5a34450ec038c3eed7ab19266635499594de52ff73723a54a72a75b9f7d6a956f01edee95
+  languageName: node
+  linkType: hard
+
+"@types/jest@npm:^29.5.14":
+  version: 29.5.14
+  resolution: "@types/jest@npm:29.5.14"
+  dependencies:
+    expect: ^29.0.0
+    pretty-format: ^29.0.0
+  checksum: 18dba4623f26661641d757c63da2db45e9524c9be96a29ef713c703a9a53792df9ecee9f7365a0858ddbd6440d98fe6b65ca67895ca5884b73cbc7ffc11f3838
   languageName: node
   linkType: hard
 
@@ -7756,6 +7794,15 @@ __metadata:
   dependencies:
     undici-types: ~5.26.4
   checksum: 943d57804dfe2b65fc8b5522b4aba49da0627f914381dbe01ecfc0867c2bc218cc7fa363a64cf8152830bf7ba252a9010c72302841e3a0ee8dd310543d3c46d6
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^22.10.5":
+  version: 22.10.5
+  resolution: "@types/node@npm:22.10.5"
+  dependencies:
+    undici-types: ~6.20.0
+  checksum: 3b0e966df4e130edac3ad034f1cddbe134e70f11556062468c9fbd749a3b07a44445a3a75a7eec68a104930bf05d4899f1a418c4ae48493d2c8c1544d8594bcc
   languageName: node
   linkType: hard
 
@@ -8205,6 +8252,13 @@ __metadata:
     "@shopify/flash-list": ^1.7.2
     "@tanstack/eslint-plugin-query": ^5.62.1
     "@tanstack/react-query": ^5.62.3
+    "@tsconfig/react-native": ^3.0.5
+    "@types/common-tags": ^1.8.4
+    "@types/flat": ^5.0.5
+    "@types/hoist-non-react-statics": ^3.3.6
+    "@types/humps": ^2.0.6
+    "@types/jest": ^29.5.14
+    "@types/node": ^22.10.5
     "@types/react": ^18.2.6
     "@types/react-test-renderer": ^18.0.0
     assert: ^2.1.0
@@ -11156,7 +11210,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expect@npm:^29.7.0":
+"expect@npm:^29.0.0, expect@npm:^29.7.0":
   version: 29.7.0
   resolution: "expect@npm:29.7.0"
   dependencies:
@@ -16154,7 +16208,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pretty-format@npm:^29.7.0":
+"pretty-format@npm:^29.0.0, pretty-format@npm:^29.7.0":
   version: 29.7.0
   resolution: "pretty-format@npm:29.7.0"
   dependencies:
