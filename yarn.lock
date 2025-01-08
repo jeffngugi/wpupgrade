@@ -8018,6 +8018,7 @@ __metadata:
     react-native-tab-view: ^4.0.5
     react-native-version: ^4.0.0
     react-native-version-check: ^3.4.7
+    react-native-webview: ^13.12.5
     react-test-renderer: 18.2.0
     typescript: 5.0.4
   languageName: unknown
@@ -16352,7 +16353,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-webview@npm:>=6.0.2":
+"react-native-webview@npm:>=6.0.2, react-native-webview@npm:^13.12.5":
   version: 13.12.5
   resolution: "react-native-webview@npm:13.12.5"
   dependencies:
