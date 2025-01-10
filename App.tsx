@@ -1,31 +1,70 @@
-import {Button, StyleSheet, Text, View} from 'react-native';
-import React from 'react';
-import Config from 'react-native-config';
-import * as Sentry from '@sentry/react-native';
+import React, { useCallback, useEffect, useRef } from 'react'
+import { NativeBaseProvider } from 'native-base'
+import { SafeAreaProvider } from 'react-native-safe-area-context'
+import * as Sentry from '@sentry/react-native'
+// import CodePush from 'react-native-code-push'
+import { LinearGradient } from 'expo-linear-gradient'
+import { AnalyticsProvider } from '@segment/analytics-react-native'
 
-Sentry.init({
-  dsn: 'https://1ed5e9345a9546f38a3050bffee72c82@o153585.ingest.us.sentry.io/5729412',
+import useCachedResources from './hooks/useCachedResources'
 
-  // uncomment the line below to enable Spotlight (https://spotlightjs.com)
-  // enableSpotlight: __DEV__,
-});
+import { customTheme } from './theme'
+import store from './store'
+import Provider from './Provider'
+import { createCacheStoreGetter } from './storage/cache'
+import ClientApp from '~ClientApp'
+import ErrorBoundary from '~ErrorBoundary'
+// import SplashScreen from 'react-native-splash-screen'
+import { productAnalytics } from '~utils/analytics'
+// import { useAppInactivity } from '~utils/hooks/useAppInactivity'
 
-const App = () => {
-  console.log('The config is', Config);
-  return (
-    <View style={{alignItems: 'center', flex: 1, justifyContent: 'center'}}>
-      <Text>Test react native config for ansdsdsdroid</Text>
-      <Text> Installed expo local authentication</Text>
-      <Button
-        title="Try!"
-        onPress={() => {
-          Sentry.captureException(new Error('First error'));
-        }}
-      />
-    </View>
-  );
-};
+// or ES6+ destructured imports
 
-export default App;
+// const OTAUpdateOptions = {
+//   checkFrequency: CodePush.CheckFrequency.ON_APP_RESUME,
+//   mandatoryInstallMode: CodePush.InstallMode.IMMEDIATE,
+// }
 
-const styles = StyleSheet.create({});
+// Sentry.init({
+//   dsn: 'https://1ed5e9345a9546f38a3050bffee72c82@o153585.ingest.sentry.io/5729412',
+//   debug: process.env.NODE_ENV === 'development',
+//   environment: process.env.NODE_ENV,
+//   enabled: false,
+// })
+
+function App() {
+  const isLoadingComplete = useCachedResources()
+  const config = {
+    dependencies: {
+      'linear-gradient': LinearGradient,
+    },
+  }
+  const cacheStore = createCacheStoreGetter()
+
+  // useEffect(() => {
+  //   if (isLoadingComplete) {
+  //     // SplashScreen.hide()
+  //   }
+  // }, [isLoadingComplete])
+
+  // const { _panResponder } = useAppInactivity()
+
+  if (!isLoadingComplete) {
+    return null
+  } else {
+    return (
+      <SafeAreaProvider>
+        <AnalyticsProvider client={productAnalytics}>
+          <Provider store={store} cacheStore={cacheStore}>
+            <NativeBaseProvider theme={customTheme} config={config}>
+              <ErrorBoundary>
+                <ClientApp />
+              </ErrorBoundary>
+            </NativeBaseProvider>
+          </Provider>
+        </AnalyticsProvider>
+      </SafeAreaProvider>
+    )
+  }
+}
+export default App

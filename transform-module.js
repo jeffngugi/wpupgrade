@@ -7,7 +7,7 @@ const upstreamTransformer = require('@react-native/metro-babel-transformer');
 module.exports.transform = ({src, filename, options}) => {
   if (filename.endsWith('.yaml')) {
     return upstreamTransformer.transform({
-      src: 'module.exports=' + JSON.stringify(yaml.safeLoad(src)),
+      src: 'module.exports=' + JSON.stringify(yaml.load(src)),
       filename,
       options,
     });

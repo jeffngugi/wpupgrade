@@ -1,0 +1,16 @@
+export const Expenses = {
+  apply_expense: 'apply_expense',
+  apply_expense_success: 'apply_expense_success',
+  apply_expense_failure: 'apply_expense_failure',
+  view_expenses: 'view_expenses',
+  view_expense_details: 'view_expense_details',
+  view_approved_expenses: 'view_approved_expenses',
+  view_pending_expenses: 'view_pending_expenses',
+  view_disapproved_expenses: 'view_disapproved_expenses',
+  open_expenses_file_modal: 'open_expenses_file_modal',
+  add_expense_file: 'add_expense_file',
+  select_expenses_modal_camera: 'select_expenses_modal_camera',
+  select_expenses_modal_gallery: 'select_expenses_modal_gallery',
+  open_expenses_file_amount_modal: 'open_expenses_file_amount_modal',
+  submit_expense_file_amount: 'submit_expense_file_amount',
+} as const

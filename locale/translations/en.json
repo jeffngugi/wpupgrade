@@ -1,0 +1,212 @@
+{
+  "playground": {
+    "title": "This is the playground title",
+    "subtitle": "This is the playground subtitle to test locales"
+  },
+  "upgrade": {
+    "title": "A new update is available",
+    "subTitle": "The current version of this application is no longer supported. Kindly update your application to the latest version.",
+    "btnTxt": "Update now"
+  },
+  "lockscreen": {
+    "title": "Welcome back",
+    "subtitle": "Enter your pin to continue to your account",
+    "forgotPin": "Forgot pin ?",
+    "createPinTitle": "Set PIN to proceed",
+    "createPinSubTitle": "Let secure your app with PIN",
+    "confirmPinTitle": "Repeat pin",
+    "confirmPinSubtitle": "Re-enter your PIN",
+    "pinResetTitle": "Your pin has been set",
+    "pinResetSubTitle": "You can now login with your pin",
+    "setPinTitle1": "Enter your old pin",
+    "setPinTitle2": "Set your pin",
+    "setPinTitle3": "Confirm your pin",
+    "setPinSubTitle1": "Enter your old 4 digit pin.",
+    "setPinSubTitle2": "Enter a unique 4 digit pin.",
+    "setPinSubTitle3": "To ensure you typed the right pin.",
+    "error1": "Pins do not match",
+    "error2": "Ops! PINs do not match",
+    "error3": "Pin should be at least 4 digits",
+    "error4": "Pins entered do not match",
+    "next": "Next",
+    "setPin": "Set Pin"
+  },
+  "leaves": {
+    "apply": "Apply",
+    "title": "Leaves",
+    "balance": "balance",
+    "all": "All",
+    "submitted": "Submitted",
+    "active": "Active",
+    "disapproved": "Disapproved",
+    "attended": "Attended",
+    "morning": "Morning",
+    "afternoon": "Afternoon",
+    "approved": "Approved",
+    "to_date": "To Date",
+    "days": "Days",
+    "from_date": "From Date",
+    "half_day": "Half day",
+    "reliever": "Reliever",
+    "leaves": "Leave",
+    "reason": "Reason",
+    "leave_details": "",
+    "ApplyLeave": "Apply for leave",
+    "leave_editing": "Edit leave application",
+    "delete_title": "Delete leave application",
+    "delete_description": "Are you sure you want to delete your leave application",
+    "leave_policy": "Leave policy",
+    "appy_half": "Apply for half day",
+    "start_date": "Start date",
+    "start_date_required": "Start date is required",
+    "notes": "Notes",
+    "hours": "Hours",
+    "days_required": "Days are required",
+    "hours_required": "Hours are required",
+    "policy_required": "Policy is required",
+    "return_date_required": "Return date is required",
+    "return_date": "Return date",
+    "successful_application": "Leave application was successful",
+    "successful_update": "Leave edit was successful",
+    "review": "Back to Leave",
+    "review_edit": "Review leave edit",
+    "submiting_leave": "Requesting leave",
+    "editing_leave": "Editing leave",
+    "save": "Save",
+    "attach": "Please attach ",
+    "appy": "Appy",
+    "apply_for_leave": "Apply for leave",
+    "documents": " document(s)",
+    "document_add_btn": "Add document",
+    "leave_duration_text": "Leave duration selected is {{leaveDetailSummary}}",
+    "leave_duration_loading": "Loading Duration",
+    "apply_leave_before_text": "Apply your leave {{days}} days before the start date",
+    "leave_balance_text": "Your {{leave_name}} balance is",
+    "leave_days_taken_text": "Leave days taken is ",
+    "leave_success_application_description": "You will receive a notification when your application has been approved.",
+    "leave_approval_stage": "Stage {{stage}} of {{total}}"
+  },
+  "advance": {
+    "title": "Salary advance",
+    "limit": "Salary advance limit",
+    "ApplyForAdvance": "Apply for salary advance",
+    "Apply": "Apply",
+    "NewAdvance": "New advance",
+    "Amount": "Amount",
+    "DateOfIssue": "Date of issue",
+    "Notes": "Notes"
+  },
+  "ewa": {
+    "title": "Earned Wage Access",
+    "earnings": "Earnings",
+    "transaction": "Transaction",
+    "availableAmount": "Available amount",
+    "favourites": "Favourites",
+    "transactionDetails": "Transaction Details",
+    "status": "Status",
+    "recipient": "Recipient",
+    "reference": "Reference",
+    "date": "Date",
+    "ewaFor": "Earned wage for",
+    "sendToMpesa": "Send to mpesa",
+    "sendToBank": "Send to bank",
+    "sendToWallet":"Send to wallet",
+    "enterPhone": "Enter Phone Number",
+    "enterAmount": "Enter Amount",
+    "allContacts": "All Contacts",
+    "continue": "Continue",
+    "chooseContact": "Choose from your contacts",
+    "phoneRequired": "Phone number is required",
+    "amountRequired": "Amount is required",
+    "bankRequired": "Bank is required",
+    "accountRequired": "Account number is required",
+    "checkAccountNumber": "Please check your account number",
+    "invalidAccount": "Please enter a valid account number",
+    "bank": "Bank",
+    "account": "Account",
+    "accountName": "Account Name"
+  },
+  "salutation": {
+    "monday": "Run the week, or the week runs you",
+    "tuesday": "Don't let yesterday take up much of today",
+    "wednesday": "Make each day your masterpiece",
+    "thursday": "Make each day your masterpiece",
+    "friday": "Share the love that was missing during the week",
+    "default": "Here's what going on at your company",
+    "mondayGreetings": "Happy Monday, {{name}} 🤗",
+    "tuesdayGreetings": "Happy Tuesday! 🤗",
+    "wednesdayGreetings": "Happy Wednesday! 🤗",
+    "thursdayGreeting": "Happy Thursday 🤗",
+    "fridayGreetings": "Oh! It’s Friday again  😊",
+    "weekendGreetings": "It’s a great weekend"
+  },
+  "account": {
+    "switchCompany": "Switch Company",
+    "company": "Company",
+    "branch": "Branch",
+    "switch": "Switch"
+  },
+  "home": {
+    "scanInTitle": "Scan to clock in",
+    "scanOutTitle": "Scan to clock out",
+    "toggleTorch": "Toggle Flashlight",
+    "scrollMore": "Scroll for more"
+  },
+  "menu": {
+    "leave": {
+      "name": "Leave",
+      "description": "Request for leave and get approved quickly",
+      "label": "Apply for \n leave"
+    },
+    "expenses": {
+      "name": "Expenses",
+      "description": "Get your expenses paid on time",
+      "label": "Claim an \n expense"
+    },
+    "ewa": {
+      "name": "EWA",
+      "description": "Unlock your earnings on demand",
+      "label": "Earned wage \n access"
+    },
+    "loans": {
+      "name": "Loans",
+      "description": "Request, track and pay off your loans",
+      "label": "Apply for \n loan"
+    },
+    "payslips": {
+      "name": "Payslips",
+      "description": "View and download your payslips",
+      "label": "View \n payslips"
+    },
+    "documents": {
+      "name": "Documents",
+      "description": "Organize, access and secure your documents",
+      "label": "Add \n documents"
+    },
+    "assets": {
+      "name": "Assets",
+      "description": "View assets assigned to you",
+      "label": "See \n assets"
+    },
+    "people": {
+      "name": "People",
+      "description": "Get to know your colleagues better",
+      "label": "See \n workmates"
+    },
+    "overtime": {
+      "name": "Overtime",
+      "description": "Time is money, earn what you deserve",
+      "label": "Apply for \n overtime"
+    },
+    "advance": {
+      "name": "Salary Advance",
+      "description": "Secure salary advances with ease",
+      "label": "Apply for \n advance"
+    },
+    "ta": {
+      "name": "Time & Attendance",
+      "description": "Easy clock in and clock out",
+      "label": "Time and \n attendance"
+    }
+  }
+}

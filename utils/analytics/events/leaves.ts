@@ -1,0 +1,16 @@
+export const Leaves = {
+  view_leaves: 'view_leaves',
+  apply_leave: 'apply_leave',
+  apply_leave_success: 'apply_leave_success',
+  apply_leave_failure: 'apply_leave_failure',
+  edit_leave: 'edit_leave',
+  edit_leave_success: 'edit_leave_success',
+  edit_leave_failure: 'edit_leave_failure',
+  view_approved_leaves: 'view_approved_leaves',
+  view_pending_leaves: 'view_pending_leaves',
+  view_disapproved_leaves: 'view_disapproved_leaves',
+  view_leave_details: 'view_leave_details',
+  open_leaves_file_modal: 'open_leaves_file_modal',
+  swipe_leave_card: 'swipe_leave_card',
+  select_leave_file: 'upload_leave_file',
+} as const

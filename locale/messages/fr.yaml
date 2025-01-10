@@ -1,0 +1,35 @@
+developer_tools:
+  label: Developer tools
+  options:
+    environment: Environment
+    language: Language
+app_environments:
+  test: Test
+  staging: Staging
+  production: Production
+supported_languages:
+  auto: Auto (English)
+  en: English
+  fr: French
+login:
+  title: Login into with your email
+  email: Email
+  password: Password
+  forgot: Forgot Password
+  btn_label: Login
+  login_in: Login in
+  enter_pass: Enter your new password
+  reseting: Reseting
+  set_pass: Set Password
+  retype_pass: Retype Password
+  code_title: Enter verification code
+  code_description: Enter the code sent to your mail address
+  resend_code: Resend Code
+forgot_pass:
+  title: Reset your password
+  description: Please enter your email below to receive a code to reset your password
+  loading: Loading
+  send: Send
+alert_messages:
+  something_wrong: Something went wrong
+  success: Success

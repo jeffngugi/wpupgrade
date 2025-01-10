@@ -1,0 +1,35 @@
+{
+  "playground": {
+    "title": "C'est le titre du terrain de jeu",
+    "subtitle": "This is the playground subtitle to test locales"
+  },
+  "upgrade": {
+    "title": "Une nouvelle mise à jour est disponible",
+    "subTitle": "La version actuelle de cette application n'est plus prise en charge. Veuillez mettre à jour votre application vers la dernière version.",
+    "btnTxt": "Mettez à jour maintenant"
+  },
+  "lockscreen": {
+    "title": "Welcome back",
+    "subtitle": "Enter your pin to continue to your account",
+    "forgotPin": "Forgot pin"
+  },
+  "leaves": {
+    "title": "Leaves",
+    "balance": "balance",
+    "all": "All",
+    "submitted": "Submitted",
+    "acttive": "Active",
+    "disapproved": "Disapproved",
+    "attended": "Attended",
+    "morning": "Morning",
+    "afternoon": "Afternoon",
+    "to_date": "To Date",
+    "from_date": "From Date",
+    "half_day": "Half day",
+    "reliever": "Reliever",
+    "reason": "Reason",
+    "leave_details": "Leave Details",
+    "delete_title": "Delete leave application",
+    "delete_description": "Are you sure you want to delete your leave application"
+  }
+}
