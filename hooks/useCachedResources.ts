@@ -45,44 +45,44 @@ export default function useCachedResources() {
             store.dispatch(appLock());
           }
         }
-        // if (isOnboarded) {
-        //   store.dispatch(setOnboarded());
-        // }
-        // const biometricEnabled = await getItem('biometricEnabled');
-        // const skipBioMetrics = await getItem('skipBioMetrics');
-        // const faceIdEnabled = await getItem('faceIdEnabled');
+        if (isOnboarded) {
+          store.dispatch(setOnboarded());
+        }
+        const biometricEnabled = await getItem('biometricEnabled');
+        const skipBioMetrics = await getItem('skipBioMetrics');
+        const faceIdEnabled = await getItem('faceIdEnabled');
 
-        // if (biometricEnabled === true || biometricEnabled === 'true') {
-        //   store.dispatch(setBiometricEnabled(true));
-        // }
+        if (biometricEnabled === true || biometricEnabled === 'true') {
+          store.dispatch(setBiometricEnabled(true));
+        }
 
-        // if (skipBioMetrics === true || skipBioMetrics === 'true') {
-        //   store.dispatch(skipBiometrics(true));
-        // }
-        // if (faceIdEnabled === true || faceIdEnabled === 'true') {
-        //   store.dispatch(setFaceIdEnabled(true));
-        // }
-        // if (lockingEnabled === true || lockingEnabled === 'true') {
-        //   store.dispatch(setLockingEnabled(true));
-        // }
-        // const nextPin = await getSecureItem('pin');
+        if (skipBioMetrics === true || skipBioMetrics === 'true') {
+          store.dispatch(skipBiometrics(true));
+        }
+        if (faceIdEnabled === true || faceIdEnabled === 'true') {
+          store.dispatch(setFaceIdEnabled(true));
+        }
+        if (lockingEnabled === true || lockingEnabled === 'true') {
+          store.dispatch(setLockingEnabled(true));
+        }
+        const nextPin = await getSecureItem('pin');
 
-        // if (isNull(nextPin)) {
-        //   store.dispatch(setLockPinAvailable(false));
-        //   store.dispatch(setLockPin(null));
-        // } else {
-        //   store.dispatch(setLockPinAvailable(true));
-        //   store.dispatch(setLockPin(nextPin));
-        // }
-        // // Load fonts
-        // await Font.loadAsync({
-        //   ...FontAwesome.font,
-        //   ...MaterialCommunityIcons.font,
-        //   ...Ionicons.font,
-        //   'moderat-medium': require('../assets/fonts/Moderat-Trial-Medium.otf'),
-        //   'moderat-regular': require('../assets/fonts/Moderat-Trial-Regular.otf'),
-        //   TomatoGrotesk: require('../assets/fonts/TomatoGrotesk-Medium.otf'),
-        // });
+        if (isNull(nextPin)) {
+          store.dispatch(setLockPinAvailable(false));
+          store.dispatch(setLockPin(null));
+        } else {
+          store.dispatch(setLockPinAvailable(true));
+          store.dispatch(setLockPin(nextPin));
+        }
+        // Load fonts
+        await Font.loadAsync({
+          ...FontAwesome.font,
+          ...MaterialCommunityIcons.font,
+          ...Ionicons.font,
+          'moderat-medium': require('../assets/fonts/Moderat-Trial-Medium.otf'),
+          'moderat-regular': require('../assets/fonts/Moderat-Trial-Regular.otf'),
+          TomatoGrotesk: require('../assets/fonts/TomatoGrotesk-Medium.otf'),
+        });
       } catch (e) {
         if (Platform.OS === 'android') {
           // SplashScreen.hide()
