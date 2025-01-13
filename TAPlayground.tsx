@@ -1,7 +1,7 @@
 import { StyleSheet, TextInput, View, Button } from 'react-native'
 import React, { useState, useEffect } from 'react'
 import { Box, Text } from 'native-base'
-import * as SQLITE from 'expo-sqlite'
+import * as SQLITE from 'expo-sqlite/legacy'
 import LoaderScreen from '~components/LoaderScreen'
 import { createTables, deleteDatabase } from '~utils/database/database'
 import { DB_NAME } from '~utils/appConstants'

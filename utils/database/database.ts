@@ -1,4 +1,4 @@
-import * as SQLite from 'expo-sqlite'
+import * as SQLite from 'expo-sqlite/legacy'
 import { DB_NAME } from '~utils/appConstants'
 import { createClockAttemptsQueryTable, createNamesQueryTable } from './tables'
 import { noop } from 'lodash'

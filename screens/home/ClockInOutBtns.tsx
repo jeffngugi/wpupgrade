@@ -1,6 +1,6 @@
 import { Button, HStack, Text } from 'native-base'
 import React, { useState } from 'react'
-import * as SQLite from 'expo-sqlite'
+import * as SQLite from 'expo-sqlite/legacy'
 import { Dimensions, Linking, Platform } from 'react-native'
 import { useSelector } from 'react-redux'
 import ScanQRCode from '~components/ScanQRCode'
