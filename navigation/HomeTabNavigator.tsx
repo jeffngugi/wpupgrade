@@ -14,6 +14,7 @@ import { isFeatureEnabled } from '~utils/hooks/useMenuItems'
 import { useMyProfile } from '~api/account'
 import { State } from '~declarations'
 import { useSelector } from 'react-redux'
+import Playground from '~Playground'
 
 const BottomTab = createBottomTabNavigator<HomeTabParamList>()
 
@@ -82,7 +83,7 @@ const HomeTabNavigator = () => {
       ) : null}
       <BottomTab.Screen name="Menu" component={MenuScreen} />
       <BottomTab.Screen name="Account" component={AccountScreen} />
-      {/* <BottomTab.Screen name="playground" component={Playground} /> */}
+      <BottomTab.Screen name="playground" component={Playground} />
     </BottomTab.Navigator>
   )
 }

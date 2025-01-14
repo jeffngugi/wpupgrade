@@ -94,7 +94,7 @@ android {
         applicationId "com.workpay.workpay"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
+        versionCode 156
         versionName "4.3.3"
     }
     signingConfigs {
