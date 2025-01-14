@@ -1,27 +1,27 @@
-import {StyleProp, ViewStyle} from 'react-native';
-import React from 'react';
-// import {BarCodeScanner} from 'expo-barcode-scanner';
-import {CameraView, FlashMode} from 'expo-camera';
+import { StyleProp, ViewStyle } from 'react-native'
+import React from 'react'
+import { BarCodeScanner } from 'expo-barcode-scanner'
+import { Camera, FlashMode } from 'expo-camera/legacy'
 
 type Props = {
-  children: React.ReactNode;
-  style?: StyleProp<ViewStyle>;
-  onQrcodeScanned: (code?: string) => void;
-  torch: boolean;
-};
+  children: React.ReactNode
+  style?: StyleProp<ViewStyle>
+  onQrcodeScanned: (code?: string) => void
+  torch: boolean
+}
 
-const ScanCamera = ({children, style, onQrcodeScanned, torch}: Props) => {
+const ScanCamera = ({ children, style, onQrcodeScanned, torch }: Props) => {
   return (
-    <CameraView
+    <Camera
       style={style}
-      barcodeScannerSettings={{
-        barcodeTypes: ['qr'],
-      }}
-      flash={torch ? 'on': 'off'}
-      onBarcodeScanned={({data}) => onQrcodeScanned(data)}>
+      flashMode={torch ? FlashMode.torch : FlashMode.off}
+      onBarCodeScanned={({ data }) => onQrcodeScanned(data)}
+      barCodeScannerSettings={{
+        barCodeTypes: [BarCodeScanner.Constants.BarCodeType.qr],
+      }}>
       {children}
-    </CameraView>
-  );
-};
+    </Camera>
+  )
+}
 
-export default ScanCamera;
+export default ScanCamera

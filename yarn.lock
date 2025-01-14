@@ -8600,6 +8600,7 @@ __metadata:
     eslint-plugin-prettier: ^5.2.1
     eslint-plugin-react: ^7.37.3
     expo: ^51.0.0
+    expo-barcode-scanner: ^13.0.1
     expo-camera: ^15.0.16
     expo-contacts: ^13.0.5
     expo-linear-gradient: ^13.0.2
@@ -8660,7 +8661,7 @@ __metadata:
     react-native-modal-datetime-picker: ^18.0.0
     react-native-month-year-picker: ^1.9.0
     react-native-pager-view: ^6.6.1
-    react-native-permissions: ^5.2.1
+    react-native-permissions: ^3.8.0
     react-native-phone-number-input: ^2.1.0
     react-native-raw-bottom-sheet: ^2.2.0
     react-native-reanimated: ^3.16.5
@@ -11996,6 +11997,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"expo-barcode-scanner@npm:^13.0.1":
+  version: 13.0.1
+  resolution: "expo-barcode-scanner@npm:13.0.1"
+  dependencies:
+    expo-image-loader: ~4.7.0
+  peerDependencies:
+    expo: "*"
+  checksum: e466207298ccd6f1eb136b199f96df508eb8b45eb644d19881a13c283408e2d19ef66ce406f375d3f193e6d029d06022fe1e2e2918c069288f0922115f3a3ffd
+  languageName: node
+  linkType: hard
+
 "expo-camera@npm:^15.0.16":
   version: 15.0.16
   resolution: "expo-camera@npm:15.0.16"
@@ -12045,6 +12057,15 @@ __metadata:
   peerDependencies:
     expo: "*"
   checksum: c8fdc046158d4c2d71d81fcd9ba115bc0e142bc0d637ae9b5fea04cd816c62c051f63e44685530109106565d29feca2035ef6123c56cf9c951d0a2775a8cd9a7
+  languageName: node
+  linkType: hard
+
+"expo-image-loader@npm:~4.7.0":
+  version: 4.7.0
+  resolution: "expo-image-loader@npm:4.7.0"
+  peerDependencies:
+    expo: "*"
+  checksum: 1630e988443f87fe86761fb2909e3de88978004a55f769cce7d7965c3ff6e4497e73e9607e826d9a1d5588361b92350e8d4ec0111c9a3243d04a565eddfcf346
   languageName: node
   linkType: hard
 
@@ -18149,17 +18170,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-permissions@npm:^5.2.1":
-  version: 5.2.1
-  resolution: "react-native-permissions@npm:5.2.1"
+"react-native-permissions@npm:^3.8.0":
+  version: 3.10.1
+  resolution: "react-native-permissions@npm:3.10.1"
   peerDependencies:
-    react: ">=18.1.0"
-    react-native: ">=0.70.0"
-    react-native-windows: ">=0.70.0"
+    react: ">=16.13.1"
+    react-native: ">=0.63.3"
+    react-native-windows: ">=0.62.0"
   peerDependenciesMeta:
     react-native-windows:
       optional: true
-  checksum: a57b0a6c71c38bb126e48e76b8eef7e62bee8083d748ec1cf7e7b5699d46867b10e96a02837c45a045b77dab37e45a5c20b1deb3637ad5cee963c9e92c6ee05a
+  checksum: 86ea43e34f41a77d85c1af2c4a4ff241dd7cb08a3f62a2ba6c8b8bbb8b03cdf4452609cd388ff7b3785086ad3ce95d45c5e6feca1af3ea2a544aafcfec28d0e1
   languageName: node
   linkType: hard
 

@@ -157,7 +157,7 @@ const Home = () => {
               </Text>
             </Box>
           </HStack>
-          {/* {taAvailable && hasTa ? <HomeCard /> : null} */}
+          {taAvailable && hasTa ? <HomeCard /> : null}
         </Box>
         <Box
           paddingX="16px"

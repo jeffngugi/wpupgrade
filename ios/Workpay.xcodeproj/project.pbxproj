@@ -12,10 +12,10 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1F613E7B583042FB2D05709C /* Pods_Workpay_WorkpayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA26D2E7EB6DD0FBBA86A5ED /* Pods_Workpay_WorkpayTests.framework */; };
-		229458CDD776F81A3EC7A618 /* Pods_Workpay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76CC84973A465EEE2C477746 /* Pods_Workpay.framework */; };
 		37B94850128C849A19F479EB /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DBBFDC934C4D2BFBD51368 /* ExpoModulesProvider.swift */; };
+		7FC9AC2574B377042BD443F0 /* Pods_Workpay_WorkpayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A079E0CBE5C6BA0C0DFCC2 /* Pods_Workpay_WorkpayTests.framework */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		CD55AB88CE3AEDE9A5160A15 /* Pods_Workpay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BC15A66C150ABECC386BF5 /* Pods_Workpay.framework */; };
 		EEB5E6A953D5D6E9CA0EDE1F /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E36E649D1959BAA2D5D3EDA4 /* PrivacyInfo.xcprivacy */; };
 		F1FA13CB4D1E373BD8D86A2C /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC538F15A97B69FE1C89C4CE /* ExpoModulesProvider.swift */; };
 /* End PBXBuildFile section */
@@ -34,6 +34,7 @@
 		00E356EE1AD99517003FC87E /* WorkpayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkpayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* WorkpayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkpayTests.m; sourceTree = "<group>"; };
+		0334E5A0B8F46EB1A077E598 /* Pods-Workpay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Workpay.debug.xcconfig"; path = "Target Support Files/Pods-Workpay/Pods-Workpay.debug.xcconfig"; sourceTree = "<group>"; };
 		047B599C2CFF304800E1277A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		10DBBFDC934C4D2BFBD51368 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-Workpay/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Workpay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Workpay.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,18 +44,17 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Workpay/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Workpay/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = Workpay/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		218D79758B5D6DDDD31CF5E2 /* Pods-Workpay-WorkpayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Workpay-WorkpayTests.debug.xcconfig"; path = "Target Support Files/Pods-Workpay-WorkpayTests/Pods-Workpay-WorkpayTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2421740C49935187E76BCF2D /* Pods-Workpay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Workpay.debug.xcconfig"; path = "Target Support Files/Pods-Workpay/Pods-Workpay.debug.xcconfig"; sourceTree = "<group>"; };
-		27711D440B3EAF934B57BF03 /* Pods-Workpay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Workpay.release.xcconfig"; path = "Target Support Files/Pods-Workpay/Pods-Workpay.release.xcconfig"; sourceTree = "<group>"; };
-		366A065265C889D36BEF4296 /* Pods-Workpay.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Workpay.staging.xcconfig"; path = "Target Support Files/Pods-Workpay/Pods-Workpay.staging.xcconfig"; sourceTree = "<group>"; };
-		62032D8F4C26B9472E810546 /* Pods-Workpay-WorkpayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Workpay-WorkpayTests.release.xcconfig"; path = "Target Support Files/Pods-Workpay-WorkpayTests/Pods-Workpay-WorkpayTests.release.xcconfig"; sourceTree = "<group>"; };
-		76CC84973A465EEE2C477746 /* Pods_Workpay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Workpay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C2E62DBA45B649C864E2C0E /* Pods-Workpay-WorkpayTests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Workpay-WorkpayTests.staging.xcconfig"; path = "Target Support Files/Pods-Workpay-WorkpayTests/Pods-Workpay-WorkpayTests.staging.xcconfig"; sourceTree = "<group>"; };
+		46A079E0CBE5C6BA0C0DFCC2 /* Pods_Workpay_WorkpayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Workpay_WorkpayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB6CAE21ECB225549311FFB /* Pods-Workpay-WorkpayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Workpay-WorkpayTests.debug.xcconfig"; path = "Target Support Files/Pods-Workpay-WorkpayTests/Pods-Workpay-WorkpayTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Workpay/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		95249334A5759DF1C4BA2B92 /* Pods-Workpay-WorkpayTests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Workpay-WorkpayTests.staging.xcconfig"; path = "Target Support Files/Pods-Workpay-WorkpayTests/Pods-Workpay-WorkpayTests.staging.xcconfig"; sourceTree = "<group>"; };
-		AA26D2E7EB6DD0FBBA86A5ED /* Pods_Workpay_WorkpayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Workpay_WorkpayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86672D95B4C4E8DA1DE6089F /* Pods-Workpay-WorkpayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Workpay-WorkpayTests.release.xcconfig"; path = "Target Support Files/Pods-Workpay-WorkpayTests/Pods-Workpay-WorkpayTests.release.xcconfig"; sourceTree = "<group>"; };
+		B31FA5A0FEFE7985188621CC /* Pods-Workpay.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Workpay.staging.xcconfig"; path = "Target Support Files/Pods-Workpay/Pods-Workpay.staging.xcconfig"; sourceTree = "<group>"; };
+		CAAE4FDEAA45349928D2D348 /* Pods-Workpay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Workpay.release.xcconfig"; path = "Target Support Files/Pods-Workpay/Pods-Workpay.release.xcconfig"; sourceTree = "<group>"; };
 		DC538F15A97B69FE1C89C4CE /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-Workpay-WorkpayTests/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		E36E649D1959BAA2D5D3EDA4 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Workpay/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F1BC15A66C150ABECC386BF5 /* Pods_Workpay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Workpay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F613E7B583042FB2D05709C /* Pods_Workpay_WorkpayTests.framework in Frameworks */,
+				7FC9AC2574B377042BD443F0 /* Pods_Workpay_WorkpayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				229458CDD776F81A3EC7A618 /* Pods_Workpay.framework in Frameworks */,
+				CD55AB88CE3AEDE9A5160A15 /* Pods_Workpay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,8 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				76CC84973A465EEE2C477746 /* Pods_Workpay.framework */,
-				AA26D2E7EB6DD0FBBA86A5ED /* Pods_Workpay_WorkpayTests.framework */,
+				F1BC15A66C150ABECC386BF5 /* Pods_Workpay.framework */,
+				46A079E0CBE5C6BA0C0DFCC2 /* Pods_Workpay_WorkpayTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -172,12 +172,12 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2421740C49935187E76BCF2D /* Pods-Workpay.debug.xcconfig */,
-				27711D440B3EAF934B57BF03 /* Pods-Workpay.release.xcconfig */,
-				366A065265C889D36BEF4296 /* Pods-Workpay.staging.xcconfig */,
-				218D79758B5D6DDDD31CF5E2 /* Pods-Workpay-WorkpayTests.debug.xcconfig */,
-				62032D8F4C26B9472E810546 /* Pods-Workpay-WorkpayTests.release.xcconfig */,
-				95249334A5759DF1C4BA2B92 /* Pods-Workpay-WorkpayTests.staging.xcconfig */,
+				0334E5A0B8F46EB1A077E598 /* Pods-Workpay.debug.xcconfig */,
+				CAAE4FDEAA45349928D2D348 /* Pods-Workpay.release.xcconfig */,
+				B31FA5A0FEFE7985188621CC /* Pods-Workpay.staging.xcconfig */,
+				5DB6CAE21ECB225549311FFB /* Pods-Workpay-WorkpayTests.debug.xcconfig */,
+				86672D95B4C4E8DA1DE6089F /* Pods-Workpay-WorkpayTests.release.xcconfig */,
+				3C2E62DBA45B649C864E2C0E /* Pods-Workpay-WorkpayTests.staging.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -197,13 +197,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "WorkpayTests" */;
 			buildPhases = (
-				FC97E184D09616E221540E17 /* [CP] Check Pods Manifest.lock */,
+				B2FE87ECB6B49CF18E7F03BC /* [CP] Check Pods Manifest.lock */,
 				2E11D43D47901CC016F1CB77 /* [Expo] Configure project */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C8834730EE7CB543748F800C /* [CP] Embed Pods Frameworks */,
-				217DE94E9F26DC4C836572BB /* [CP] Copy Pods Resources */,
+				B47263AA74E3C0327E5DE011 /* [CP] Embed Pods Frameworks */,
+				B4296D473F6D63F9D78788F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,16 +219,16 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Workpay" */;
 			buildPhases = (
-				20765EE79745C0CBF5DD9C16 /* [CP] Check Pods Manifest.lock */,
+				DCFF6B17358DD01BE2E8421E /* [CP] Check Pods Manifest.lock */,
 				9ADEAA5E27AF36429C8841EA /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				690E1EDC4E574DF7BF628F52 /* Upload Debug Symbols to Sentry */,
-				E531CD2E784CC20381E6AFE5 /* [CP] Embed Pods Frameworks */,
-				9824FEE2AC6E497DE5CDFA36 /* [CP] Copy Pods Resources */,
-				58D5F32D00E60878C3C68D46 /* [CP-User] [RNFB] Core Configuration */,
+				7CFA77E5215AC462ED5000C6 /* [CP] Embed Pods Frameworks */,
+				0097293B8E738699D60A0B7E /* [CP] Copy Pods Resources */,
+				3DA079A6269770E20DC160CF /* [CP-User] [RNFB] Core Configuration */,
 			);
 			buildRules = (
 			);
@@ -297,6 +297,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0097293B8E738699D60A0B7E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Workpay/Pods-Workpay-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Workpay/Pods-Workpay-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Workpay/Pods-Workpay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -312,45 +329,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if [[ -f \"$PODS_ROOT/../.xcode.env\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env\"\nfi\nif [[ -f \"$PODS_ROOT/../.xcode.env.local\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env.local\"\nfi\n\n# The project root by default is one level up from the ios directory\nexport PROJECT_ROOT=\"$PROJECT_DIR\"/..\n\nif [[ \"$CONFIGURATION\" = *Debug* ]]; then\n  export SKIP_BUNDLING=1\nfi\nif [[ -z \"$ENTRY_FILE\" ]]; then\n  # Set the entry JS file using the bundler's entry resolution.\n  export ENTRY_FILE=\"$(\"$NODE_BINARY\" -e \"require('expo/scripts/resolveAppEntry')\" \"$PROJECT_ROOT\" ios absolute | tail -n 1)\"\nfi\n\nif [[ -z \"$CLI_PATH\" ]]; then\n  # Use Expo CLI\n  export CLI_PATH=\"$(\"$NODE_BINARY\" --print \"require.resolve('@expo/cli')\")\"\nfi\nif [[ -z \"$BUNDLE_COMMAND\" ]]; then\n  # Default Expo CLI command for bundling\n  export BUNDLE_COMMAND=\"export:embed\"\nfi\n\n/bin/sh `\"$NODE_BINARY\" --print \"require('path').dirname(require.resolve('@sentry/react-native/package.json')) + '/scripts/sentry-xcode.sh'\"` `\"$NODE_BINARY\" --print \"require('path').dirname(require.resolve('react-native/package.json')) + '/scripts/react-native-xcode.sh'\"`\n";
-		};
-		20765EE79745C0CBF5DD9C16 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Workpay-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		217DE94E9F26DC4C836572BB /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Workpay-WorkpayTests/Pods-Workpay-WorkpayTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Workpay-WorkpayTests/Pods-Workpay-WorkpayTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Workpay-WorkpayTests/Pods-Workpay-WorkpayTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		2E11D43D47901CC016F1CB77 /* [Expo] Configure project */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -371,7 +349,7 @@
 			shellPath = /bin/sh;
 			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-Workpay-WorkpayTests/expo-configure-project.sh\"\n";
 		};
-		58D5F32D00E60878C3C68D46 /* [CP-User] [RNFB] Core Configuration */ = {
+		3DA079A6269770E20DC160CF /* [CP-User] [RNFB] Core Configuration */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -398,21 +376,21 @@
 			shellPath = /bin/sh;
 			shellScript = "/bin/sh ../node_modules/@sentry/react-native/scripts/sentry-xcode-debug-files.sh";
 		};
-		9824FEE2AC6E497DE5CDFA36 /* [CP] Copy Pods Resources */ = {
+		7CFA77E5215AC462ED5000C6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Workpay/Pods-Workpay-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Workpay/Pods-Workpay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Workpay/Pods-Workpay-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Workpay/Pods-Workpay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Workpay/Pods-Workpay-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Workpay/Pods-Workpay-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9ADEAA5E27AF36429C8841EA /* [Expo] Configure project */ = {
@@ -434,7 +412,46 @@
 			shellPath = /bin/sh;
 			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-Workpay/expo-configure-project.sh\"\n";
 		};
-		C8834730EE7CB543748F800C /* [CP] Embed Pods Frameworks */ = {
+		B2FE87ECB6B49CF18E7F03BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Workpay-WorkpayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4296D473F6D63F9D78788F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Workpay-WorkpayTests/Pods-Workpay-WorkpayTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Workpay-WorkpayTests/Pods-Workpay-WorkpayTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Workpay-WorkpayTests/Pods-Workpay-WorkpayTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B47263AA74E3C0327E5DE011 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -451,24 +468,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Workpay-WorkpayTests/Pods-Workpay-WorkpayTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E531CD2E784CC20381E6AFE5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Workpay/Pods-Workpay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Workpay/Pods-Workpay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Workpay/Pods-Workpay-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FC97E184D09616E221540E17 /* [CP] Check Pods Manifest.lock */ = {
+		DCFF6B17358DD01BE2E8421E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -483,7 +483,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Workpay-WorkpayTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Workpay-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -525,7 +525,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 218D79758B5D6DDDD31CF5E2 /* Pods-Workpay-WorkpayTests.debug.xcconfig */;
+			baseConfigurationReference = 5DB6CAE21ECB225549311FFB /* Pods-Workpay-WorkpayTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = S3J75TBTGH;
@@ -554,7 +554,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62032D8F4C26B9472E810546 /* Pods-Workpay-WorkpayTests.release.xcconfig */;
+			baseConfigurationReference = 86672D95B4C4E8DA1DE6089F /* Pods-Workpay-WorkpayTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -665,7 +665,7 @@
 		};
 		045C4E052CF8591900F6A809 /* Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 366A065265C889D36BEF4296 /* Pods-Workpay.staging.xcconfig */;
+			baseConfigurationReference = B31FA5A0FEFE7985188621CC /* Pods-Workpay.staging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = Staging;
 				CLANG_ENABLE_MODULES = YES;
@@ -692,7 +692,7 @@
 		};
 		045C4E062CF8591900F6A809 /* Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95249334A5759DF1C4BA2B92 /* Pods-Workpay-WorkpayTests.staging.xcconfig */;
+			baseConfigurationReference = 3C2E62DBA45B649C864E2C0E /* Pods-Workpay-WorkpayTests.staging.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -718,7 +718,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2421740C49935187E76BCF2D /* Pods-Workpay.debug.xcconfig */;
+			baseConfigurationReference = 0334E5A0B8F46EB1A077E598 /* Pods-Workpay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = Debug;
 				CLANG_ENABLE_MODULES = YES;
@@ -747,7 +747,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27711D440B3EAF934B57BF03 /* Pods-Workpay.release.xcconfig */;
+			baseConfigurationReference = CAAE4FDEAA45349928D2D348 /* Pods-Workpay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = Release;
 				CLANG_ENABLE_MODULES = YES;
