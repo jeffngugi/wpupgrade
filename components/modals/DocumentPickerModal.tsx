@@ -36,6 +36,7 @@ const DocumentPickerModal = ({
   onUserCanceled,
   setPhotoItem,
 }: DocumentPickerModalProps) => {
+  
   const documentOptions: documentOption[] = [
     {
       text: 'Open Gallery',
@@ -78,13 +79,12 @@ const DocumentPickerModal = ({
     }
   }
 
-  const handleDocument = async (action: DocSelectionChoice) => {
-    const options: ImageLibraryOptions = {
-      mediaType: 'photo',
-      quality: 0.1,
+  const requestCameraPermission = async () => {
+    if (Platform.OS === 'ios') {
+      return true // iOS handles permissions through Info.plist
     }
 
-    const checkCameraPermission = async () => {
+    try {
       const granted = await PermissionsAndroid.request(
         PermissionsAndroid.PERMISSIONS.CAMERA,
         {
@@ -95,9 +95,11 @@ const DocumentPickerModal = ({
           buttonPositive: 'OK',
         },
       )
+      
       if (granted === PermissionsAndroid.RESULTS.GRANTED) {
         return true
       }
+      
       Toast.show({
         render: () => <ErrorAlert description="Camera permission denied" />,
         placement: 'top',
@@ -105,19 +107,46 @@ const DocumentPickerModal = ({
         duration: 3000,
       })
       return false
+    } catch (err) {
+      Toast.show({
+        render: () => <ErrorAlert description="Error requesting camera permission" />,
+        placement: 'top',
+        top: 100,
+        duration: 3000,
+      })
+      return false
+    }
+  }
+
+  const handleCamera = async () => {
+    const options: ImageLibraryOptions = {
+      mediaType: 'photo',
+      quality: 0.1,
     }
 
-    const handleCamera = async () => {
-      try {
-        setTimeout(() => {
-          launchCamera(options, async response => {
-            await onHandleResponse(response)
-            hideModal()
-          })
-        }, 400)
-      } catch (err) {
-        console.warn(err)
+    try {
+      const hasPermission = await requestCameraPermission()
+      if (!hasPermission) {
+        hideModal()
+        return
       }
+
+      setTimeout(() => {
+        launchCamera(options, async response => {
+          await onHandleResponse(response)
+          hideModal()
+        })
+      }, 400)
+    } catch (err) {
+      console.warn(err)
+      hideModal()
+    }
+  }
+
+  const handleDocument = async (action: DocSelectionChoice) => {
+    const options: ImageLibraryOptions = {
+      mediaType: 'photo',
+      quality: 0.1,
     }
 
     if (action === 'file') {
@@ -140,8 +169,9 @@ const DocumentPickerModal = ({
     }
 
     if (action === 'camera') {
-      handleCamera()
+      await handleCamera()
     }
+    
     if (action === 'gallery') {
       setTimeout(() => {
         launchImageLibrary(options, async response => {

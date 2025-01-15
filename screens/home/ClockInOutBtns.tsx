@@ -22,6 +22,7 @@ import LoadingModal from '~components/modals/LoadingModal'
 import { analyticsTrackEvent } from '~utils/analytics'
 import { AnalyticsEvents } from '~utils/analytics/events'
 import ConfirmModal from '~components/modals/ConfirmModal'
+import { requestCameraPermission } from '~utils/cameraPermission'
 const { height } = Dimensions.get('screen')
 export type TQRDATA = {
   checkpoint: null | number
@@ -97,6 +98,10 @@ const ClockInOutBtns = () => {
   }
 
   const handleClockInOut = async (clockIn: boolean) => {
+    if(usesQR){
+      await requestCameraPermission()
+    }
+    
     analyticsTrackEvent(
       clockIn ? AnalyticsEvents.Home.clock_in : AnalyticsEvents.Home.clock_out,
       {},
