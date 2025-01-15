@@ -98,8 +98,7 @@ const ClockInOutBtns = () => {
   }
 
   const handleClockInOut = async (clockIn: boolean) => {
-    if(usesQR){
-      if (Platform.OS === 'ios')  return
+    if(isAndroid && usesQR){
       await requestCameraPermission()
     }
     
