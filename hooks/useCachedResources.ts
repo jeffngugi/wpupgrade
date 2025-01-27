@@ -3,7 +3,7 @@ import FontAwesome from '@expo/vector-icons/FontAwesome';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import Ionicons from '@expo/vector-icons/Ionicons';
 import * as Sentry from '@sentry/react-native';
-// import SplashScreen from 'react-native-splash-screen'
+import SplashScreen from 'react-native-splash-screen'
 import {useEffect, useState} from 'react';
 import {getItem} from '~storage/device-storage';
 import {setOnboarded} from '~store/actions/Onboarding';
@@ -85,14 +85,14 @@ export default function useCachedResources() {
         });
       } catch (e) {
         if (Platform.OS === 'android') {
-          // SplashScreen.hide()
+          SplashScreen.hide()
         }
         Sentry.captureException(e);
         console.warn(e);
       } finally {
-        if (Platform.OS === 'android') {
-          // SplashScreen.hide()
-        }
+        // if (Platform.OS === 'android') {
+        //   SplashScreen.hide()
+        // }
         setLoadingComplete(true);
       }
     }

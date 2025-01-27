@@ -8668,6 +8668,7 @@ __metadata:
     react-native-safe-area-context: ^5.0.0
     react-native-screens: ^4.3.0
     react-native-share: ^12.0.3
+    react-native-splash-screen: ^3.3.0
     react-native-svg: 12.1.1
     react-native-svg-transformer: ^1.5.0
     react-native-tab-view: ^4.0.5
@@ -18265,6 +18266,15 @@ __metadata:
   version: 12.0.3
   resolution: "react-native-share@npm:12.0.3"
   checksum: f95c5c21f7a596b53703259c3ed14763e9169ebff9ff27affdbc357a4eeb0cc50aa80830955d8aea18a9eb6718cc0ed7d904cc1f529832ae5b427ea2c6273034
+  languageName: node
+  linkType: hard
+
+"react-native-splash-screen@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "react-native-splash-screen@npm:3.3.0"
+  peerDependencies:
+    react-native: ">=0.57.0"
+  checksum: 14c565d5d4214f55586dcf6f7abd12d99d3e0667f67de3bda7aa24988971567b283a4187fbc0c6269c83b3c21d59d1950335c61bb0780ec2d065e20b3b9199d0
   languageName: node
   linkType: hard
 

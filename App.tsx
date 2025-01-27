@@ -14,7 +14,7 @@ import Provider from './Provider'
 import { createCacheStoreGetter } from './storage/cache'
 import ClientApp from '~ClientApp'
 import ErrorBoundary from '~ErrorBoundary'
-// import SplashScreen from 'react-native-splash-screen'
+import SplashScreen from 'react-native-splash-screen'
 import { productAnalytics } from '~utils/analytics'
 // import { useAppInactivity } from '~utils/hooks/useAppInactivity'
 
@@ -41,11 +41,11 @@ function App() {
   }
   const cacheStore = createCacheStoreGetter()
 
-  // useEffect(() => {
-  //   if (isLoadingComplete) {
-  //     // SplashScreen.hide()
-  //   }
-  // }, [isLoadingComplete])
+  useEffect(() => {
+    if (isLoadingComplete) {
+      SplashScreen.hide()
+    }
+  }, [isLoadingComplete])
 
   // const { _panResponder } = useAppInactivity()
 
