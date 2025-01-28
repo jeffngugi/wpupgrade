@@ -98,10 +98,10 @@ const ClockInOutBtns = () => {
   }
 
   const handleClockInOut = async (clockIn: boolean) => {
-    if(isAndroid && usesQR){
+    if (isAndroid && usesQR) {
       await requestCameraPermission()
     }
-    
+
     analyticsTrackEvent(
       clockIn ? AnalyticsEvents.Home.clock_in : AnalyticsEvents.Home.clock_out,
       {},

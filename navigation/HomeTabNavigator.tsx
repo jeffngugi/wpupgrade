@@ -83,7 +83,9 @@ const HomeTabNavigator = () => {
       ) : null}
       <BottomTab.Screen name="Menu" component={MenuScreen} />
       <BottomTab.Screen name="Account" component={AccountScreen} />
+      {/* 
       <BottomTab.Screen name="playground" component={Playground} />
+      */}
     </BottomTab.Navigator>
   )
 }
